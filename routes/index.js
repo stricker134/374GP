@@ -1,21 +1,28 @@
 var express = require('express');
 var router = express.Router();
+var actions = require('./../models');
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
   res.render('index', { title: 'Express' });
 });
 
+router.get('/posts/:id', async function(req, res, next) {
+    var data = await actions.getPost(req.params.id);
+    res.render('post', {data});
+  });
+
 
 router.get('/courses', function(req, res, next) {
-  res.render('courses');
+res.render('courses');
 });
 
-router.get('/courses', function(req, res, next) {
-  res.render('courses');
-});
 
 router.get('/experience', function(req, res, next) {
+  res.render('exp');
+});
+
+router.get('/exp', function(req, res, next) {
   res.render('exp');
 });
 
@@ -24,8 +31,8 @@ router.get('/grants', function(req, res, next) {
   res.render('grants');
 });
 
-router.get('/savoy', function(req, res, next) {
-  res.render('savoy');
+router.get('/index', function(req, res, next) {
+  res.render('index');
 });
 
 router.get('/blog', function(req, res, next) {
@@ -38,6 +45,28 @@ router.get('/blog2', function(req, res, next) {
 
 router.get('/cdemo', function(req, res, next) {
   res.render('cdemo');
+});
+
+router.get('/publications', function(req, res, next) {
+  res.render('publications');
+});
+
+router.get('/addPost', function(req, res, next) {
+  res.render('addBlog');
+});
+
+router.get('/contact', function(req, res, next) {
+  res.render('contact');
+});
+
+router.post('/submit', async function(req, res, next) {
+  var id = await actions.addToDb(req.body.title,req.body.subtitle,req.body.postBody,req.body.imageLink);
+  res.redirect(`/posts/${id}`);
+});
+
+router.post('/sendEmail', async function(req, res, next) {
+  var id = await actions.sendEmail(req.body.message);
+  res.redirect(`index`);
 });
 
 
