@@ -5,7 +5,7 @@ var functions = {
     addToDb :  async function(title,subtitle,body,image){
         return new Promise(async function(resolve, reject) {
             dateNow = new Date();
-            var statement = `insert into posts (title,subtitle,body,image, subbmitDate) values('${title}','${subtitle}','${body}','${image}','${dateNow}')`;
+            var statement = `insert into posts (title,subtitle,body,image, submitDate) values('${title}','${subtitle}','${body}','${image}','${dateNow}')`;
 
             var row = await sql.run(statement, function(err) {
                 if (err) {
@@ -22,12 +22,27 @@ var functions = {
         return new Promise(async function(resolve, reject) {
             var statement = `select * from posts where id = ${id}`;
 
-            var row = await sql.get(statement,[], function(err,row) {
+            await sql.get(statement,[], function(err,row) {
                 if (err) {
                     console.log(err);
                 }
                 else{
                     resolve(row);
+                }
+            });
+        });
+    },
+
+    getPosts : async function(){
+        return new Promise(async function(resolve, reject) {
+            var statement = `select * from posts order by submitDate desc limit 5`;
+
+            await sql.all(statement,[], function(err,rows) {
+                if (err) {
+                    console.log(err);
+                }
+                else{
+                    resolve(rows);
                 }
             });
         });

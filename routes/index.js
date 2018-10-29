@@ -35,8 +35,10 @@ router.get('/index', function(req, res, next) {
   res.render('index');
 });
 
-router.get('/blog', function(req, res, next) {
-  res.render('blog');
+router.get('/blog', async function(req, res, next) {
+  var data = await actions.getPosts();
+  console.log(data);
+  res.render('blog',{data});
 });
 
 router.get('/blog2', function(req, res, next) {

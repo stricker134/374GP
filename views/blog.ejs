@@ -77,59 +77,36 @@
                         </svg>
                     </div>
                     
-                    <div class="row">
-                        <a href="post">
-                            <div class="col-lg-6">
-                                <div class="card">
-                                    <img src="images/agile-pen.jpg">
-                                    <h4>Intro To Agile</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                    <a href="post" class="blue-button">Read More</a>
-                                </div>
-                            </div>
-                        </a>
-                        <a href="post">
-                            <div class="col-lg-6">
-                                <div class="card">
-                                    <img src="images/scrum-meeting.png">
-                                    <h4>Take a Look at These New Agile Techniques</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
-                                    <a href="post" class="blue-button">Read More</a>
-                                </div>
-                            </div>
-                        </a>
-
-                    </div>
                     
                     <div class="row">
-                        <a href="post">
+                        <a href="posts/<%= data[0].id %>">
                             <div class="col-lg-4">
-                                <div class="card">
-                                    <img src="images/scrum-manager.png">
-                                    <h4>What I learned at Agile Con 2018</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
-                                    <a href="post" class="blue-button">Read More</a>
-                                </div>
+                                    <div class="card" style="height:600px;">
+                                            <img src="<%= data[0].image %>" height="320px" width="100%">
+                                            <h4><%= data[0].title %></h4>
+                                            <p><%= data[0].subtitle %></p>
+                                            <a href="posts/<%= data[0].id %>" class="blue-button">Read More</a>
+                                    </div>
                             </div>
                         </a>
-                        <a href="post">
+                        <a href="posts/<%= data[1].id %>">
                             <div class="col-lg-4">
-                                <div class="card">
-                                    <img src="http://cevirdikce.com/proje/hasem-2/images/finance-2.jpg">
-                                    <h4>Funding Secured</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                    <a href="post" class="blue-button">Read More</a>
-                                </div>
+                                    <div class="card" style="height:600px;">
+                                            <img src="<%= data[1].image %>" height="320px" width="100%">
+                                            <h4><%= data[1].title %></h4>
+                                            <p><%= data[1].subtitle %></p>
+                                            <a href="posts/<%= data[1].id %>" class="blue-button">Read More</a>
+                                    </div>
                             </div>
                         </a>
-                        <a href="post">
+                        <a href="posts/<%= data[2].id %>">
                             <div class="col-lg-4">
-                                <div class="card">
-                                    <img src="images/campus-center.jpg">
-                                    <h4>New Courses SP19</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                    <a href="post" class="blue-button">Read More</a>
-                                </div>
+                                    <div class="card" style="height:600px;">
+                                            <img src="<%= data[2].image %>" height="320px" width="100%">
+                                            <h4><%= data[2].title %></h4>
+                                            <p><%= data[2].subtitle %></p>
+                                            <a href="posts/<%= data[2].id %>" class="blue-button">Read More</a>
+                                    </div>
                             </div>
                         </a>
                     </div>
