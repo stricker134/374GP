@@ -67,7 +67,7 @@ router.post('/submit', async function(req, res, next) {
 });
 
 router.post('/sendEmail', async function(req, res, next) {
-  var id = await actions.sendEmail(req.body.message);
+  var id = await actions.sendEmail(req.body.message, req.body.email);
   res.redirect(`index`);
 });
 

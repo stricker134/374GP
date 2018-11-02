@@ -48,7 +48,7 @@ var functions = {
         });
     },
 
-    sendEmail: function( body,) {
+    sendEmail: function( body,email) {
 		return new Promise(async function(resolve, reject) {
 			var transporter = nodemailer.createTransport({
 				service: 'gmail',
@@ -61,7 +61,9 @@ var functions = {
 				from: 'email',
 				to: 'njstrick@iu.edu',
 				subject: 'You recieved mail from your website',
-				text: body
+                text: ` ${body} 
+                
+You can reply to this email by emailing: ${email} `
 			};
 
 			transporter.sendMail(mailOptions, function(error, info) {

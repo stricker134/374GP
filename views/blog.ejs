@@ -32,11 +32,14 @@
                     <li class="nav-item">
                         <a class="nav-item nav-link" style="color: #EA8859;" href="publications">Publications</a>
                     </li>
-                    <li class="nav-item">
+                    <!--<li class="nav-item">
                         <a class="nav-item nav-link" style="color: #EA8859;" href="courses">Courses</a>
-                    </li>
-                    <li class="nav-item">
+                    </li>-->
+                    <!--<li class="nav-item">
                         <a class="nav-item nav-link" style="color: #EA8859;" href="experience">Experience</a>
+                    </li>-->
+                    <li class="nav-item">
+                        <a class="nav-item nav-link" style="color: #EA8859;" href="contact">Contact</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-item nav-link" style="color: #EA8859;" href="blog">Blog</a>
@@ -44,6 +47,13 @@
                 </ul>
                 <form class="form-inline my-2 my-lg-0">
                     <a href="savoyresume.pdf" class="btn btn-outline-light" download="proposed_file_name">Download My Resume</a>
+                    
+                    <div class="header-links">
+                            <a href="mailto:asavoy@iupui.edu" class="fa fa-envelope-square"></a>&nbsp;&nbsp;
+                            <a href="https://www.linkedin.com/in/april-savoy-phd-5735212/" class="fa fa-linkedin-square" target="_blank"></a>&nbsp;&nbsp;
+                            <a href="https://www.researchgate.net/profile/April_Savoy" class="footer-logo" target="_blank"><img src="images/logos/research-gate.png"></a>&nbsp;&nbsp;
+                            <a href="https://www.regenstrief.org/person/april-savoy-phd/" class="footer-logo" target="_blank"><img src="images/logos/regenstrief-logo-square.png"></a>
+                    </div>
                 </form>
             </div>
         </nav>
@@ -77,46 +87,40 @@
                         </svg>
                     </div>
                     
+                    <div class="row">
+                            <a href="posts/<%= data[0].id %>">
+                                <div class="col-lg-4">
+                                        <div class="card" style="height:600px;">
+                                                <img src="<%= data[0].image %>" height="320px" width="100%">
+                                                <h4><%= data[0].title %></h4>
+                                                <p><%= data[0].subtitle %></p>
+                                                <a href="posts/<%= data[0].id %>" class="blue-button">Read More</a>
+                                        </div>
+                                </div>
+                            </a>
+                            <a href="posts/<%= data[1].id %>">
+                                <div class="col-lg-4">
+                                        <div class="card" style="height:600px;">
+                                                <img src="<%= data[1].image %>" height="320px" width="100%">
+                                                <h4><%= data[1].title %></h4>
+                                                <p><%= data[1].subtitle %></p>
+                                                <a href="posts/<%= data[1].id %>" class="blue-button">Read More</a>
+                                        </div>
+                                </div>
+                            </a>
+                            <a href="posts/<%= data[2].id %>">
+                                <div class="col-lg-4">
+                                        <div class="card" style="height:600px;">
+                                                <img src="<%= data[2].image %>" height="320px" width="100%">
+                                                <h4><%= data[2].title %></h4>
+                                                <p><%= data[2].subtitle %></p>
+                                                <a href="posts/<%= data[2].id %>" class="blue-button">Read More</a>
+                                        </div>
+                                </div>
+                            </a>
+                        </div>
                     
                     <div class="row">
-                        <a href="posts/<%= data[0].id %>">
-                            <div class="col-lg-4">
-                                    <div class="card" style="height:600px;">
-                                            <img src="<%= data[0].image %>" height="320px" width="100%">
-                                            <h4><%= data[0].title %></h4>
-                                            <p><%= data[0].subtitle %></p>
-                                            <a href="posts/<%= data[0].id %>" class="blue-button">Read More</a>
-                                    </div>
-                            </div>
-                        </a>
-                        <a href="posts/<%= data[1].id %>">
-                            <div class="col-lg-4">
-                                    <div class="card" style="height:600px;">
-                                            <img src="<%= data[1].image %>" height="320px" width="100%">
-                                            <h4><%= data[1].title %></h4>
-                                            <p><%= data[1].subtitle %></p>
-                                            <a href="posts/<%= data[1].id %>" class="blue-button">Read More</a>
-                                    </div>
-                            </div>
-                        </a>
-                        <a href="posts/<%= data[2].id %>">
-                            <div class="col-lg-4">
-                                    <div class="card" style="height:600px;">
-                                            <img src="<%= data[2].image %>" height="320px" width="100%">
-                                            <h4><%= data[2].title %></h4>
-                                            <p><%= data[2].subtitle %></p>
-                                            <a href="posts/<%= data[2].id %>" class="blue-button">Read More</a>
-                                    </div>
-                            </div>
-                        </a>
-                    </div>
-                    
-                    <div class="row">
-                        <div class="col-sm-4 pull-right">
-                        </div>
-                        <div class="col-sm-6">
-                        </div>
-                        <div class="col-sm-2">
                             <a href="post" class="blue-button2">Older Posts &#x2192</a>
                         </div>
                     </div>
@@ -128,69 +132,16 @@
         </div>
     </section>
 
-    <footer>
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-sm-12 col-md-6" style="background-color: #6D909C;">
-                <br>
-                <h1>My Info</h1>
-                <svg width="400" height="10">
-                    <rect width="100" height="25" style="fill:rgb(234,136,89);stroke-width:0;stroke:rgb(0,0,0); " />
-                </svg>
-                <br>
-                <br>
-                <h7>First Name:</h7>
-                <h7>April</h7>
-                <br>
-                <br>
-                <h7>Last Name:</h7>
-                <h7>Savoy</h7>
-                <br>
-                <br>
-                <h7>Email:<h7>
-                        <a style="color:#F0EBDF;" href="mailto:asavoy@iupui.edu">asavoy@iupui.edu</a>
-                        <br>
-                        <br>
-                        <h7>Phone Number:</h7>
-                        <a style="color: #F0EBDF;" href="tel:+11122233344">111 - 222 333 EXT44</a>
-                        <div class="footer-copyright">
-                        <p>
-                            <i class="fa fa-copyright"></i> April Savoy, PhD&nbsp;&nbsp;
-                            <a href="mailto:asavoy@iupui.edu" class="fa fa-envelope-square"></a>&nbsp;&nbsp;
-                            <a href="https://www.linkedin.com/in/april-savoy-phd-5735212/" class="fa fa-linkedin-square" target="_blank"></a>&nbsp;&nbsp;
-                            <a href="https://www.researchgate.net/profile/April_Savoy" class="footer-logo" target="_blank"><img src="images/logos/research-gate.png"></a>&nbsp;&nbsp;
-                            <a href="https://www.regenstrief.org/person/april-savoy-phd/" class="footer-logo" target="_blank"><img src="images/logos/regenstrief-logo-square.png"></a>
-                        </p>  
-                    </div>
+<footer class="footer-copyright">
 
-            </div>
-            <div class="col-sm-12 col-sm-offset-2 col-md-6 col-md-offset-0" style="background-color: #EA8859">
-                <br>
-                <h1>Contact Me</h1>
-                <svg width="400" height="10">
-                    <rect width="100" height="25" style="fill:rgb(109,144,156);stroke-width:0;stroke:rgb(0,0,0); " />
-                </svg>
-                <br>
-                <br>
-                <form>
-                    <div class="form-group">
-                        <label for="name">Full Name:</label>
-                        <input type="text" class="form-control" id="name">
-                    </div>
-                    <!-- <div class="form-group">
-                      <label for="textbox">Comments:</label>
-                      <input type="text" class="form-control" id="text">
-                    </div> -->
-                    <div class="form-group">
-                        <label for="exampleFormControlTextarea1">Comments:</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                    </div>
-                    <button type="submit" class="btn btn-primary">Submit</button>
-                    <br>
-                    <br>
-                </form>
-            </div>
-        </div>
+    <div class="col-sm-12 col-md-12 col-lg-12">
+        <p>
+            <i class="fa fa-copyright"></i> April Savoy, PHD&nbsp;&nbsp;
+            <a href="mailto:asavoy@iupui.edu" class="fa fa-envelope-square"></a>&nbsp;&nbsp;
+            <a href="https://www.linkedin.com/in/april-savoy-phd-5735212/" class="fa fa-linkedin-square"></a>&nbsp;&nbsp;
+            <a href="https://www.researchgate.net/profile/April_Savoy" class="footer-logo"><img src="images/logos/research-gate.png"></a>&nbsp;&nbsp;
+            <a href="https://www.regenstrief.org/person/april-savoy-phd/" class="footer-logo"><img src="images/logos/regenstrief-logo-square.png"></a>
+        </p>
     </div>
 
 </footer>
