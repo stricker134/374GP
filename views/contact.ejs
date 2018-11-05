@@ -9,51 +9,22 @@
     <link rel="stylesheet" type="text/css" href="css/queries.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css'>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-    <script src="http://webdesign9.in/js/jquery.js"></script>
-    <script src="http://webdesign9.in/js/bootstrap.min.js"></script>
 </head>
-<header id="header-content">
-    <section class="bgimage6">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="home-navbar">
+    
+<header>
+    <section class="bgimage4" id="bgimage">
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="home-navbar" style="z-index: 1000;">
             <a class="navbar-brand" style="color: White;" href="index">April Savoy</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item">
-                        <a class="nav-item nav-link active" style="color: #EA8859;" href="index">Home</a>
-                    </li>
-                    <!--<li class="nav-item">
-                        <a class="nav-item nav-link" style="color: #EA8859;" href="grants">Research &amp; Grants</a>
-                    </li>-->
-                    <li class="nav-item">
-                        <a class="nav-item nav-link" style="color: #EA8859;" href="publications">Publications</a>
-                    </li>
-                    <!--<li class="nav-item">
-                        <a class="nav-item nav-link" style="color: #EA8859;" href="courses">Courses</a>
-                    </li>-->
-                    <!--<li class="nav-item">
-                        <a class="nav-item nav-link" style="color: #EA8859;" href="experience">Experience</a>
-                    </li>-->
-                    <li class="nav-item">
-                        <a class="nav-item nav-link" style="color: #EA8859;" href="contact">Contact</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-item nav-link" style="color: #EA8859;" href="blog">Blog</a>
-                    </li>
-                </ul>
-                <form class="form-inline my-2 my-lg-0">
-                    <a href="savoyresume.pdf" class="btn btn-outline-light" download="proposed_file_name">Download My Resume</a>
 
-                    <div class="header-links">
-                        <a href="mailto:asavoy@iupui.edu" class="fa fa-envelope-square"></a>&nbsp;&nbsp;
-                        <a href="https://www.linkedin.com/in/april-savoy-phd-5735212/" class="fa fa-linkedin-square" target="_blank"></a>&nbsp;&nbsp;
-                        <a href="https://www.researchgate.net/profile/April_Savoy" class="footer-logo" target="_blank"><img src="images/logos/research-gate.png"></a>&nbsp;&nbsp;
-                        <a href="https://www.regenstrief.org/person/april-savoy-phd/" class="footer-logo" target="_blank"><img src="images/logos/regenstrief-logo-square.png"></a>
-                    </div>
+                <form class="form-inline my-2 my-lg-0" style="position: absolute; right: 20px;">
+                    <a href="images/savoyresume.pdf" class="btn btn-outline-light" target="_blank">Download My Resume</a>
                 </form>
             </div>
         </nav>
@@ -61,23 +32,46 @@
         <div class="container-fluid">
             <div class="text-center">
                 <div class="row">
-                    <div class="text" style="color: #fff;">
-                        <h1><b>Contact</b></h1><br>
-                        <h3>"Insert Quote Or Caption Here" - April Savoy</h3>
+                    <div class="text" style="color: white;">
+                        <h1 id="contact-me"><b>Contact</b></h1><br>
 
                     </div>
                 </div>
             </div>
         </div>
-        <div>
+
     </section>
 
+    <section style="z-index: 900">
+
+        <div id="mySidenav" class="sidenav" style="z-index: 10000;">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="index">Home</a>
+            <a href="publications">Publications</a>
+            <a href="contact">Contact</a>
+            <a href="blog">Blog</a>
+        </div>
+
+        <span class="menu-toggle-2" style="font-size:20px; cursor:pointer; z-index: 900; background: white; opacity: 0.7; border: 2px solid black; border-radius: 25px; padding-left: 10px; padding-right: 10px; padding-bottom: 4px;" onclick="openNav()">&#9776;&nbsp;Menu</span>
+
+    </section>
+
+    <section id="navbar-right" style="z-index: 1000;">
+        <div class="header-links" id="navbar-links">
+            <a href="mailto:asavoy@iupui.edu" class="fa fa-envelope-square"></a>&nbsp;&nbsp;
+            <a href="https://www.linkedin.com/in/april-savoy-phd-5735212/" class="fa fa-linkedin-square" target="_blank"></a>&nbsp;&nbsp;
+            <a href="https://www.researchgate.net/profile/April_Savoy" class="footer-logo" target="_blank"><img src="images/logos/research-gate.png"></a>&nbsp;&nbsp;
+            <a href="https://www.regenstrief.org/person/april-savoy-phd/" class="footer-logo" target="_blank"><img src="images/logos/regenstrief-logo-square.png"></a>
+
+            <div id="copyright-footer" style="color: black;"><i class="fa fa-copyright"></i> April Savoy, PHD</div>
+        </div>
+    </section>
 </header>
 
 <body>
 
-    <section style="background: #F0EBDF">
-        <div class="container">
+    <section style="background: #F9F9F9">
+        <div class="container" id="contact-container">
 
             <!-- Main Content -->
             <div class="contact-content" id="contact-content">
@@ -86,7 +80,7 @@
                     <div class="row">
                         <div class="col-sm-12 col-md-12 col-lg-6">
                             <div class="align-list-1">
-                                <h1>My Info</h1>
+                                <h1 id="contact-title">My Info</h1>
                                 <svg width="400" height="10">
                                     <rect width="100" height="25" style="fill:rgb(234,136,89);stroke-width:0;stroke:rgb(0,0,0); " />
                                 </svg>
@@ -111,7 +105,7 @@
                                                 
                         <div class="col-sm-12 col-md-12 col-lg-6">
                             <div class="align-list-1">
-                                <h1>What can I help you with?</h1>
+                                <h1 id="contact-title">What can I help you with?</h1>
                                 <svg width="300" height="10">
                                     <rect width="100" height="25" style="fill:rgb(234,136,89);stroke-width:0;stroke:rgb(0,0,0); " />
                                 </svg>
@@ -123,8 +117,8 @@
 
                                     <div class="form-group">
                                             <label for="text">Your Email:</label>
-                                            <input type="text" class="form-control" id="email" name="email"></textarea>
-                                        </div>
+                                            <input type="text" class="form-control" id="email" name="email">
+                                    </div>
 
                                     <div class="form-group">
                                         <button type="submit" class="btn btn-success">Send</button>
@@ -139,20 +133,9 @@
         </div>
     </section>
 
-    <footer class="footer-copyright">
-
-        <div class="col-sm-12 col-md-12 col-lg-12">
-            <p>
-                <i class="fa fa-copyright"></i> April Savoy, PHD&nbsp;&nbsp;
-                <a href="mailto:asavoy@iupui.edu" class="fa fa-envelope-square"></a>&nbsp;&nbsp;
-                <a href="https://www.linkedin.com/in/april-savoy-phd-5735212/" class="fa fa-linkedin-square"></a>&nbsp;&nbsp;
-                <a href="https://www.researchgate.net/profile/April_Savoy" class="footer-logo"><img src="images/logos/research-gate.png"></a>&nbsp;&nbsp;
-                <a href="https://www.regenstrief.org/person/april-savoy-phd/" class="footer-logo"><img src="images/logos/regenstrief-logo-square.png"></a>
-            </p>
-        </div>
-
-    </footer>
-
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="http://webdesign9.in/js/jquery.js"></script>
+    <script src="http://webdesign9.in/js/bootstrap.min.js"></script>
     <!-- JQuery -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <!-- Bootstrap tooltips -->
@@ -161,6 +144,7 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
     <!-- MDB core JavaScript -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.13/js/mdb.min.js"></script>
+    <script src="js/index.js"></script>
 </body>
 
 </html>

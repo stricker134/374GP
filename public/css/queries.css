@@ -1,6 +1,131 @@
+@media only screen and (max-width: 2000px) {
+
+    #learning-objectives {
+        margin-top: 30px;
+    }
+    
+}
+
+@media only screen and (max-width: 1750px) {
+
+    #research-grants-1 {
+        color: white;
+        position: absolute;
+        top: 40%;
+        left: 28%;
+        text-shadow: 2px 2px 4px #000000;
+    }
+    
+    #research-grants-2 {
+        color: white;
+        position: absolute;
+        top: 38%;
+        left: 25%;
+        text-shadow: 2px 2px 4px #000000;
+    }
+    
+    #research-grants-3 {
+        color: white;
+        position: absolute;
+        top: 38%;
+        left: 40%;
+        text-shadow: 2px 2px 4px #000000;
+    }
+    
+    .group-middle {
+        margin-left: 0;
+    }
+    
+    #learning-objectives {
+        margin-top: 30px;
+    }
+    
+    #courses {
+        width: 90%;
+        margin: 0 auto;
+    }
+    
+}
+
+@media only screen and (max-width: 1600px) {
+
+    #research-grants-1 {
+        color: white;
+        position: absolute;
+        top: 40%;
+        left: 28%;
+        text-shadow: 2px 2px 4px #000000;
+    }
+    
+    #research-grants-2 {
+        color: white;
+        position: absolute;
+        top: 38%;
+        left: 24%;
+        text-shadow: 2px 2px 4px #000000;
+    }
+    
+    #research-grants-3 {
+        color: white;
+        position: absolute;
+        top: 38%;
+        left: 38%;
+        text-shadow: 2px 2px 4px #000000;
+    }
+    
+    #courses {
+        width: 90%;
+        margin: 0 auto;
+    }
+    
+    .group-middle {
+        margin-left: 0;
+    }
+    
+    #learning-objectives {
+        margin-top: 30px;
+    }
+    
+}
+
 @media only screen and (max-width: 1400px) {
     
+    #research-grants-1 {
+        color: white;
+        position: absolute;
+        top: 40%;
+        left: 25%;
+        text-shadow: 2px 2px 4px #000000;
+    }
     
+    #research-grants-2 {
+        color: white;
+        position: absolute;
+        top: 38%;
+        left: 20%;
+        text-shadow: 2px 2px 4px #000000;
+    }
+    
+    #research-grants-3 {
+        color: white;
+        position: absolute;
+        top: 38%;
+        left: 35%;
+        text-shadow: 2px 2px 4px #000000;
+    }
+    
+    #courses {
+        width: 90%;
+        margin: 0 auto;
+    }
+    
+    .group-middle {
+        margin-left: 0;
+    }
+    
+    #learning-objectives {
+        margin-top: 30px;
+    }
     
 }
 
@@ -8,6 +133,52 @@
     
     .card-body-broken-2 {
         margin: 0px;
+    }
+    
+    #research-grants-1 {
+        color: white;
+        position: absolute;
+        top: 40%;
+        left: 22%;
+        text-shadow: 2px 2px 4px #000000;
+    }
+    
+    #research-grants-2 {
+        color: white;
+        position: absolute;
+        top: 38%;
+        left: 17%;
+        text-shadow: 2px 2px 4px #000000;
+    }
+    
+    #research-grants-3 {
+        color: white;
+        position: absolute;
+        top: 38%;
+        left: 35%;
+        text-shadow: 2px 2px 4px #000000;
+    }
+    
+    .text1 {
+       font-size: 95%;
+    }
+    
+    .text1 h1 {
+        width: 100%;
+        font-size: 300%;
+    }
+    
+    #courses {
+        width: 90%;
+        margin: 0 auto;
+    }
+    
+    .group-middle {
+        margin-left: 0;
+    }
+    
+    #learning-objectives {
+        margin-top: 30px;
     }
     
 }
@@ -18,17 +189,387 @@
         margin: 0px;
     }
     
+    #research-grants-1 {
+        color: white;
+        position: absolute;
+        top: 35%;
+        left: 15%;
+        text-shadow: 2px 2px 4px #000000;
+    }
+    
+    #research-grants-2 {
+        color: white;
+        position: absolute;
+        top: 37%;
+        left: 11%;
+        text-shadow: 2px 2px 4px #000000;
+    }
+    
+    #research-grants-3 {
+        color: white;
+        position: absolute;
+        top: 37%;
+        left: 32%;
+        text-shadow: 2px 2px 4px #000000;
+    }
+    
+    .text1 {
+       font-size: 85%;
+    }
+    
+    .text1 h1 {
+        width: 100%;
+        font-size: 300%;
+    }
+    
+    #contact-title {
+        font-size: 220%;
+    }
+    
+    #courses {
+        width: 90%;
+        margin: 0 auto;
+    }
+    
+    .group-middle {
+        margin-left: 0;
+    }
+    
+    #learning-objectives {
+        margin-top: 30px;
+    }
+    
 }
 
 @media only screen and (max-width: 992px) {
+    
+        #navbar-links {
+        position: relative;
+        left: 5px;
+    }
+        
+    #copyright-footer {
+        z-index: 99;
+        position: absolute;
+        top: 225px;
+        right: -67px;
+        margin: 0;
+        padding-bottom: 10px;
+        font-size: 20px;
+        width: 175px;
+        -webkit-transform: rotate(-90deg);
+    }
+    
+    #edu-img img {
+        width: 95%;
+        border: 2px solid black;
+        border-radius: 25px;
+        margin-bottom: 20px;
+    }
+    
+    #research-grants-1 {
+        color: white;
+        position: absolute;
+        top: 38%;
+        left: 22%;
+        font-size: 65px;
+        text-shadow: 2px 2px 4px #000000;
+    }
+    
+    #research-grants-2 {
+        color: white;
+        position: absolute;
+        top: 38%;
+        left: 19%;
+        font-size: 65px;
+        text-shadow: 2px 2px 4px #000000;
+    }
+    
+    #research-grants-3 {
+        color: white;
+        position: absolute;
+        top: 38%;
+        left: 35%;
+        font-size: 65px;
+        text-shadow: 2px 2px 4px #000000;
+    }
+    
+    #experience-title {
+        margin-left: 0;
+        padding-left: 0;
+    }
+    
+    #experience-container {
+        width: 100%;
+        padding-left: 0;
+        padding-right: 5%;
+        text-align: left;
+    }
+    
+    #quality-container {
+        width: 100%;
+        padding-left: 0;
+        margin-left: 30px;
+        padding-right: 5%;
+        text-align: left;
+    }
+    
+    #quality-title {
+        font-size: 230%;
+    }
+    
+    #quality-titles h4 {
+        font-size: 140%;
+    } 
+    
+    #quality-titles p {
+        font-size: 90%;
+        text-align: left;
+    }
+    
+    #research-container {
+        width: 100%;
+        padding-left: 0;
+        margin-left: 30px;
+        padding-right: 5%;
+        text-align: left;
+    }
+    
+    #research-title {
+        font-size: 230%;
+    }
+    
+    #research-titles h4 {
+        font-size: 125%;
+        text-align: left;
+    } 
+    
+    #research-titles p {
+        font-size: 90%;
+        text-align: left;
+    }
+    
+    #fellowships-container {
+        width: 100%;
+        padding-left: 0;
+        margin-left: 30px;
+        padding-right: 5%;
+        text-align: left;
+    }
+    
+    #fellowships-title {
+        font-size: 230%;
+    }
+    
+    #fellowships-titles h4 {
+        font-size: 125%;
+        text-align: left;
+    } 
+    
+    #fellowships-titles p {
+        font-size: 90%;
+        text-align: left;
+    }
+    
+    #courses {
+        width: 95%;
+        margin: 0 auto;
+    }
+    
+    .text1 {
+       font-size: 100%;
+      position: absolute;
+      top: 705px;
+      left:  50%;
+        text-align: justify;
+      transform: translate(-50%, -50%);
+      color: #2B3A42;
+    }
+    
+    .text1 h1 {
+        width: 100%;
+        font-size: 300%;
+    }
+    
+    #about-me-header {
+        margin-top: 10px;
+    }
+    
+    .bgimage {
+        height: 900px;
+    }
     
     .card-body-broken {
         margin: 0px;
     }
     
+    .group-middle {
+        margin-top: 40px;
+    }
+    
+    #learning-objectives {
+        margin-top: 40px;
+    }
+    
 }
 
 @media only screen and (max-width: 768px) {
+    
+    #navbar-links {
+        position: relative;
+        left: 5px;
+    }
+    
+    #copyright-footer {
+        z-index: 99;
+        position: absolute;
+        top: 225px;
+        right: -67px;
+        margin: 0;
+        padding-bottom: 10px;
+        font-size: 20px;
+        width: 175px;
+        -webkit-transform: rotate(-90deg);
+    }
+    
+    #edu-img img {
+        width: 95%;
+        border: 2px solid black;
+        border-radius: 25px;
+        margin-bottom: 20px;
+    }
+    
+    #research-grants-1 {
+        color: white;
+        position: absolute;
+        top: 40%;
+        left: 25%;
+        font-size: 45px;
+        text-shadow: 2px 2px 4px #000000;
+    }
+    
+    #research-grants-2 {
+        color: white;
+        position: absolute;
+        top: 38%;
+        left: 21%;
+        font-size: 45px;
+        text-shadow: 2px 2px 4px #000000;
+    }
+    
+    #research-grants-3 {
+        color: white;
+        position: absolute;
+        top: 38%;
+        left: 35%;
+        font-size: 50px;
+        text-shadow: 2px 2px 4px #000000;
+    }
+    
+    #experience-title {
+        margin-left: 0;
+        padding-left: 0;
+    }
+    
+    #experience-container {
+        width: 100%;
+        padding-left: 0;
+        padding-right: 5%;
+        text-align: left;
+    }
+    
+    #quality-container {
+        width: 100%;
+        padding-left: 0;
+        margin-left: 30px;
+        padding-right: 5%;
+        text-align: left;
+    }
+    
+    #quality-title {
+        font-size: 230%;
+    }
+    
+    #quality-titles h4 {
+        font-size: 140%;
+    } 
+    
+    #quality-titles p {
+        font-size: 90%;
+        text-align: left;
+    }
+    
+    #research-container {
+        width: 100%;
+        padding-left: 0;
+        margin-left: 30px;
+        padding-right: 5%;
+        text-align: left;
+    }
+    
+    #research-title {
+        font-size: 230%;
+    }
+    
+    #research-titles h4 {
+        font-size: 125%;
+        text-align: left;
+    } 
+    
+    #research-titles p {
+        font-size: 90%;
+        text-align: left;
+    }
+    
+    #fellowships-container {
+        width: 100%;
+        padding-left: 0;
+        margin-left: 30px;
+        padding-right: 5%;
+        text-align: left;
+    }
+    
+    #fellowships-title {
+        font-size: 230%;
+    }
+    
+    #fellowships-titles h4 {
+        font-size: 125%;
+        text-align: left;
+    } 
+    
+    #fellowships-titles p {
+        font-size: 90%;
+        text-align: left;
+    }
+    
+    #courses {
+        width: 95%;
+        margin-left: 0 auto;
+    }
+    
+    .text1 {
+       font-size: 95%;
+      position: absolute;
+      top: 705px;
+      left: 50%;
+        text-align: justify;
+      transform: translate(-50%, -50%);
+      color: #2B3A42;
+    }
+    
+    .text1 h1 {
+        width: 100%;
+        font-size: 250%;
+    }
+    
+    #about-me-header {
+        margin-top: 10px;
+    }
+    
+    .bgimage {
+        height: 900px;
+    }
     
     h1 {
         font-size: 80%;
@@ -46,13 +587,185 @@
         margin-top: 120px;
     }
     
+    .middle-col {
+        width: 95%;
+    }
+    
+    .group-middle {
+        margin-top: 40px;
+    }
+    
+    #learning-objectives {
+        margin-top: 40px;
+    }
+    
 }
 
 @media only screen and (max-width: 600px) {
     
+        #navbar-links {
+        position: relative;
+        left: 5px;
+    }
+    
+    #copyright-footer {
+        z-index: 99;
+        position: absolute;
+        top: 225px;
+        right: -67px;
+        margin: 0;
+        padding-bottom: 10px;
+        font-size: 20px;
+        width: 175px;
+        -webkit-transform: rotate(-90deg);
+    }
+    
+    #edu-img img {
+        width: 90%;
+        border: 2px solid black;
+        border-radius: 25px;
+        margin-bottom: 20px;
+    }
+    
+    #research-grants-1 {
+        color: white;
+        position: absolute;
+        top: 40%;
+        left: 25%;
+        font-size: 35px;
+        text-shadow: 2px 2px 4px #000000;
+    }
+    
+    #research-grants-2 {
+        color: white;
+        position: absolute;
+        top: 40%;
+        left: 20%;
+        font-size: 35px;
+        text-shadow: 2px 2px 4px #000000;
+    }
+    
+    #research-grants-3 {
+        color: white;
+        position: absolute;
+        top: 40%;
+        left: 36%;
+        font-size: 35px;
+        text-shadow: 2px 2px 4px #000000;
+    }
+    
+    #experience-title {
+        margin-left: 0;
+        padding-left: 0;
+    }
+    
+    #experience-container {
+        width: 95%;
+        padding-left: 0;
+        padding-right: 10%;
+        text-align: left;
+    }
+    
+    #quality-container {
+        width: 92%;
+        padding-left: 0;
+        margin-left: 30px;
+        padding-right: 10%;
+        text-align: left;
+    }
+    
+    #quality-title {
+        font-size: 230%;
+    }
+    
+    #quality-titles h4 {
+        font-size: 140%;
+    } 
+    
+    #quality-titles p {
+        font-size: 90%;
+        text-align: left;
+    }
+    
+    #research-container {
+        width: 92%;
+        padding-left: 0;
+        margin-left: 30px;
+        padding-right: 10%;
+        text-align: left;
+    }
+    
+    #research-title {
+        font-size: 230%;
+    }
+    
+    #research-titles h4 {
+        font-size: 125%;
+        text-align: left;
+    } 
+    
+    #research-titles p {
+        font-size: 90%;
+        text-align: left;
+    }
+    
+    #fellowships-container {
+        width: 92%;
+        padding-left: 0;
+        margin-left: 30px;
+        padding-right: 10%;
+        text-align: left;
+    }
+    
+    #fellowships-title {
+        font-size: 230%;
+    }
+    
+    #fellowships-titles h4 {
+        font-size: 125%;
+        text-align: left;
+    } 
+    
+    #fellowships-titles p {
+        font-size: 90%;
+        text-align: left;
+    }
+    
+    #courses {
+        width: 90%;
+        margin-left: 20px;
+    }
+    
+    .text1 h1 {
+        width: 100%;
+        font-size: 200%;
+    }
+    
+    #about-me-header {
+        margin-top: 10px;
+    }
+    
+    .bgimage {
+        height: 900px;
+    }
+    
     .text h1 {
         font-size: 200%;
         margin-bottom: 20px;
+    }
+    
+    .text h3 {
+        font-size: 140%;
+    }
+    
+    .text1 {
+       font-size: 85%;
+      position: absolute;
+      top: 735px;
+      left: 48%;
+        text-align: justify;
+      transform: translate(-50%, -50%);
+      color: #2B3A42;
     }
     
     .text h3 {
@@ -69,7 +782,7 @@
     }
     
     #about-me-header {
-        margin-top: 120px;
+        margin-top: 10px;
     }
     
     .align-list {
@@ -94,6 +807,15 @@
     
     .blog-sm {
         margin-bottom: 10px;
+    }
+    
+    #contact-title {
+        font-size: 200%;
+    }
+    
+    #contact-container {
+        width: 95%;
+        
     }
     
     /*** Publication Content ***/
@@ -126,12 +848,31 @@
     .exp-content {
         margin-bottom: 50px;
     }
+    
+    .middle-col {
+        width: 95%;
+    }
 
+    .group-middle {
+        margin-top: 40px;
+    }
+    
+    #learning-objectives {
+        margin-top: 40px;
+    }
     
 }
 
 @media only screen and (max-width: 480px) {
     
+    .bgimage {
+        height: 950px;
+    }
+    
+    .text3 {
+        margin-top: 20px;
+    }
+    
     .text h1 {
         font-size: 200%;
         margin-bottom: 20px;
@@ -142,7 +883,147 @@
     }
     
     .text1 {
-        width: 100%;
+       font-size: 85%;
+      position: absolute;
+      top: 735px;
+      left: 47%;
+        text-align: justify;
+      transform: translate(-50%, -50%);
+      color: #2B3A42;
+    }
+    
+    #navbar-links {
+        position: relative;
+        left: 5px;
+    }
+    
+    #copyright-footer {
+        z-index: 99;
+        position: absolute;
+        top: 225px;
+        right: -67px;
+        margin: 0;
+        padding-bottom: 10px;
+        font-size: 20px;
+        width: 175px;
+        -webkit-transform: rotate(-90deg);
+    }
+    
+    #edu-img img {
+        width: 90%;
+        border: 2px solid black;
+        border-radius: 25px;
+        margin-bottom: 20px;
+    }
+    
+    #research-grants-1 {
+        color: white;
+        position: absolute;
+        top: 38%;
+        left: 18%;
+        font-size: 35px;
+        text-shadow: 2px 2px 4px #000000;
+    }
+    
+    #research-grants-2 {
+        color: white;
+        position: absolute;
+        top: 38%;
+        left: 15%;
+        font-size: 35px;
+        text-shadow: 2px 2px 4px #000000;
+    }
+    
+    #research-grants-3 {
+        color: white;
+        position: absolute;
+        top: 38%;
+        left: 33%;
+        font-size: 35px;
+        text-shadow: 2px 2px 4px #000000;
+    }
+    
+    #experience-title {
+        margin-top: 10px;
+        margin-left: 0;
+        padding-left: 0;
+    }
+    
+    #experience-container {
+        width: 85%;
+        padding-left: 0;
+        padding-right: 10%;
+        text-align: left;
+    }
+    
+    #quality-container {
+        width: 92%;
+        padding-left: 0;
+        margin-left: 30px;
+        padding-right: 10%;
+        text-align: left;
+    }
+    
+    #quality-title {
+        font-size: 230%;
+    }
+    
+    #quality-titles h4 {
+        font-size: 140%;
+    } 
+    
+    #quality-titles p {
+        font-size: 90%;
+        text-align: left;
+    }
+    
+    #research-container {
+        width: 92%;
+        padding-left: 0;
+        margin-left: 30px;
+        padding-right: 10%;
+        text-align: left;
+    }
+    
+    #research-title {
+        font-size: 230%;
+    }
+    
+    #research-titles h4 {
+        font-size: 125%;
+        text-align: left;
+    } 
+    
+    #research-titles p {
+        font-size: 90%;
+        text-align: left;
+    }
+    
+    #fellowships-container {
+        width: 92%;
+        padding-left: 0;
+        margin-left: 30px;
+        padding-right: 10%;
+        text-align: left;
+    }
+    
+    #fellowships-title {
+        font-size: 230%;
+    }
+    
+    #fellowships-titles h4 {
+        font-size: 125%;
+        text-align: left;
+    } 
+    
+    #fellowships-titles p {
+        font-size: 90%;
+        text-align: left;
+    }
+    
+    #courses {
+        width: 92%;
+        margin-left: 5px;
     }
     
     .text1 h1 {
@@ -151,7 +1032,7 @@
     }
     
     #about-me-header {
-        margin-top: 120px;
+        margin-top: 10px;
     }
     
     .align-list {
@@ -178,6 +1059,37 @@
         margin-bottom: 10px;
     }
     
+    #contact-title {
+        font-size: 170%;
+    }
+    
+    #contact-container {
+        width: 90%;
+    }
+    
+    #exampleFormControlTextarea1 {
+        height: 300px;
+    }
+    
+    .align-list-1 {
+        padding-top: 0;
+        margin-top: 0;
+    }
+    
+    #blog-container {
+        margin-left: 0;
+        width: 95%;
+    }
+    
+    #blog-container h1 {
+        font-size: 200%;
+    }
+    
+    #blog-container-2 {
+        margin-left: 0;
+        padding-left: 0;
+    }
+    
     /*** Publication Content ***/
     
     .btn-scroll {
@@ -187,7 +1099,7 @@
     .pub-list ul li {
         margin: 0;
         margin-top: 15px;
-        padding: 0px 15px 15px 50px;
+        padding: 0px 35px 15px 50px;
         text-indent: 0px;
         background-position: 0px 2px;
     }
@@ -206,11 +1118,28 @@
     
     .exp-content {
         margin-bottom: 50px;
+    }
+    
+    .group-middle {
+        margin-top: 40px;
+    }
+    
+    #learning-objectives {
+        margin-top: 40px;
     }
 
 }
 
-@media only screen and (max-width: 340px) {
+@media only screen and (max-width: 360px) {
+    
+    .bgimage {
+        height: 1000px;
+    }
+    
+    .text3 {
+        margin-top: 10px;
+        padding-right: 30px;
+    }
     
     .text h1 {
         font-size: 200%;
@@ -222,7 +1151,152 @@
     }
     
     .text1 {
-        width: 100%;
+       font-size: 85%;
+      position: absolute;
+      top: 775px;
+      left: 47%;
+        text-align: justify;
+      transform: translate(-50%, -50%);
+      color: #2B3A42;
+    }
+    
+    #navbar-links {
+        position: relative;
+        left: 5px;
+    }
+    
+    #copyright-footer {
+        z-index: 99;
+        position: absolute;
+        top: 200px;
+        right: -90px;
+        margin: 0;
+        padding-bottom: 10px;
+        font-size: 20px;
+        width: 220px;
+        -webkit-transform: rotate(-90deg);
+    }
+    
+    #edu-img img {
+        width: 90%;
+        border: 2px solid black;
+        border-radius: 25px;
+        margin-bottom: 20px;
+    }
+    
+    #research-grants-1 {
+        color: white;
+        position: absolute;
+        top: 35%;
+        left: 6%;
+        font-size: 35px;
+        text-shadow: 2px 2px 4px #000000;
+    }
+    
+    #research-grants-2 {
+        color: white;
+        position: absolute;
+        top: 36%;
+        left: 8%;
+        font-size: 30px;
+        text-shadow: 2px 2px 4px #000000;
+    }
+    
+    #research-grants-3 {
+        color: white;
+        position: absolute;
+        top: 35%;
+        left: 29%;
+        font-size: 35px;
+        text-shadow: 2px 2px 4px #000000;
+    }
+    
+    #experience-title {
+        font-size: 90%;
+        margin-top: 10px;
+        margin-left: 0;
+        padding-left: 0;
+    }
+    
+    #experience-container {
+        width: 80%;
+        padding-left: 0;
+        padding-right: 10%;
+        text-align: left;
+    }
+    
+    #quality-container {
+        width: 82%;
+        padding-left: 0;
+        margin-left: 30px;
+        padding-right: 10%;
+        text-align: left;
+    }
+    
+    #quality-title {
+        font-size: 200%;
+    }
+    
+    #quality-titles h4 {
+        font-size: 120%;
+    } 
+    
+    #quality-titles p {
+        font-size: 80%;
+        text-align: left;
+    }
+    
+    #research-container {
+        width: 82%;
+        padding-left: 0;
+        margin-left: 30px;
+        padding-right: 10%;
+        text-align: left;
+    }
+    
+    #research-title {
+        font-size: 200%;
+    }
+    
+    #research-titles h4 {
+        font-size: 120%;
+        text-align: left;
+    } 
+    
+    #research-titles p {
+        font-size: 80%;
+        text-align: left;
+    }
+    
+    #fellowships-container {
+        width: 82%;
+        padding-left: 0;
+        margin-left: 30px;
+        padding-right: 10%;
+        text-align: left;
+    }
+    
+    #fellowships-title {
+        font-size: 200%;
+    }
+    
+    #fellowships-titles h4 {
+        font-size: 125%;
+        text-align: left;
+    } 
+    
+    #fellowships-titles p {
+        font-size: 80%;
+        text-align: left;
+    }
+    
+    #courses {
+        width: 80%;
+        margin-left: 10px;
+    }
+    
+    #courses-title {
+        font-size: 100%;
     }
     
     .text1 h1 {
@@ -231,7 +1305,7 @@
     }
     
     #about-me-header {
-        margin-top: 120px;
+        margin-top: 10px;
     }
     
     .align-list {
@@ -267,7 +1341,7 @@
     .pub-list ul li {
         margin: 0;
         margin-top: 15px;
-        padding: 0px 15px 15px 50px;
+        padding: 0px 35px 15px 50px;
         text-indent: 0px;
         background-position: 0px 2px;
     }
@@ -286,6 +1360,14 @@
     
     .exp-content {
         margin-bottom: 50px;
+    }
+    
+    .group-middle {
+        margin-top: 40px;
+    }
+    
+    #learning-objectives {
+        margin-top: 40px;
     }
     
 }

@@ -47,6 +47,20 @@ var functions = {
             });
         });
     },
+    getAllPosts : async function(){
+        return new Promise(async function(resolve, reject) {
+            var statement = `select * from posts order by submitDate`;
+
+            await sql.all(statement,[], function(err,rows) {
+                if (err) {
+                    console.log(err);
+                }
+                else{
+                    resolve(rows);
+                }
+            });
+        });
+    },
 
     sendEmail: function( body,email) {
 		return new Promise(async function(resolve, reject) {

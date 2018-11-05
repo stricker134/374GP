@@ -61,6 +61,11 @@ router.get('/contact', function(req, res, next) {
   res.render('contact');
 });
 
+router.get('/allposts',  async function(req, res, next) {
+  var data = await actions.getAllPosts();
+  res.render('allposts',{data});
+});
+
 router.post('/submit', async function(req, res, next) {
   var id = await actions.addToDb(req.body.title,req.body.subtitle,req.body.postBody,req.body.imageLink);
   res.redirect(`/posts/${id}`);

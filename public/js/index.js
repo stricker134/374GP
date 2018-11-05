@@ -1,87 +1,25 @@
-$(document).ready(function () {
-    
-    // Sticky Nav on Publications Page
-
-    $("#sticky-nav").hide();
-
-    if ($(window).width() > 960) {
-        $('.menu-toggle').hide();
+function myFunction() {
+    var x = document.getElementById("myDIV");
+    if (x.style.display === "none") {
+        x.style.display = "block";
     } else {
-        $('.sticky-nav a').hide();
+        x.style.display = "none";
     }
+}
 
-    $(window).resize(function () {
-        if ($(window).width() > 960) {
-            $('.sticky-nav a').show();
-            $('.menu-toggle').hide();
-        } else {
-            $('.menu-toggle').show();
-            $('.sticky-nav a').hide();
-        }
-    });
-
-    var stickyNavTop = $('.sticky-nav').offset().top;
-
-    var stickyNav = function () {
-        var scrollTop = $(window).scrollTop();
-
-        if (scrollTop > stickyNavTop) {
-            $('.sticky-nav').addClass('sticky');
-            $('.sticky-nav a').addClass();
-        } else {
-            $('.sticky-nav').removeClass('sticky');
-        }
-    };
-
-    stickyNav();
-
-    $(window).scroll(function () {
-        stickyNav();
-    });
-
-    $(function () {
-        $('ul.nav a').bind('click', function (event) {
-            var $anchor = $(this);
-
-            $('html, body').stop().animate({
-                scrollTop: $($anchor.attr('href')).offset().top
-            }, 1500, 'ease');
-
-            event.preventDefault();
-        });
-    });
-
-    $(window).scroll(function () {
-        $('#navbar').each(function () {
-            if (isScrolledIntoView($(this))) {
-                $("#sticky-nav").hide();
-            } else {
-                $("#sticky-nav").show();
-            }
-        });
-    });
-
-    function isScrolledIntoView(elem) {
-        var $elem = $(elem);
-        var $window = $(window);
-
-        var docViewTop = $window.scrollTop();
-        var docViewBottom = docViewTop + $window.height();
-
-        var elemTop = $elem.offset().top;
-        var elemBottom = elemTop + $elem.height();
-
-        return ((elemBottom <= docViewBottom) && (elemTop >= docViewTop));
+function myFunction2() {
+    var x = document.getElementById("myDIV2");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
     }
+}
 
-    $('.menu-toggle').click(function () {
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+}
 
-        $('.sticky-nav').toggleClass('sticky-nav--open');
-        $(this).toggleClass('open');
-
-        $('.sticky-nav a').toggle();
-        $('.sticky-nav').toggleClass('sticky-height');
-
-    })
-
-});
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}

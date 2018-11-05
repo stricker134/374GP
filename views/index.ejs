@@ -9,17 +9,14 @@
     <link rel="stylesheet" type="text/css" href="css/queries.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css'>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-    <script src="http://webdesign9.in/js/jquery.js"></script>
-    <script src="http://webdesign9.in/js/bootstrap.min.js"></script>
 </head>
-    
+
 <header>
     <section class="bgimage" id="bgimage">
-        
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="home-navbar">
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="home-navbar" style="z-index: 1000;">
             <a class="navbar-brand" style="color: White;" href="index">April Savoy</a>
-            
+
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -27,332 +24,240 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item">
-                        <a class="nav-item nav-link active" style="color: #EA8859;" href="index">Home</a>
-                    </li>
-                    <!--<li class="nav-item">
-                        <a class="nav-item nav-link" style="color: #EA8859;" href="grants">Research &amp; Grants</a>
-                    </li>-->
-                    <li class="nav-item">
-                        <a class="nav-item nav-link" style="color: #EA8859;" href="publications">Publications</a>
-                    </li>
-                    <!--<li class="nav-item">
-                        <a class="nav-item nav-link" style="color: #EA8859;" href="courses">Courses</a>
-                    </li>-->
-                    <!--<li class="nav-item">
-                        <a class="nav-item nav-link" style="color: #EA8859;" href="experience">Experience</a>
-                    </li>-->
-                    <li class="nav-item">
-                        <a class="nav-item nav-link" style="color: #EA8859;" href="contact">Contact</a>
+                        <a class="nav-item nav-link active" style="color: white;" href="#bgimage">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-item nav-link" style="color: #EA8859;" href="blog">Blog</a>
+                        <a class="nav-item nav-link active" style="color: white;" href="#experience">Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-item nav-link active" style="color: white;" href="#grants">Grants</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-item nav-link active" style="color: white;" href="#scholarships">Scholarships</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-item nav-link active" style="color: white;" href="#courses">Courses</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-item nav-link active" style="color: white;" href="#bgimage"><i class="fa fa-arrow-circle-up"></i></a>
                     </li>
                 </ul>
                 <form class="form-inline my-2 my-lg-0">
-                    <a href="savoyresume.pdf" class="btn btn-outline-light" download="proposed_file_name">Download My Resume</a>
-                    
-                    <div class="header-links">
-                            <a href="mailto:asavoy@iupui.edu" class="fa fa-envelope-square"></a>&nbsp;&nbsp;
-                            <a href="https://www.linkedin.com/in/april-savoy-phd-5735212/" class="fa fa-linkedin-square" target="_blank"></a>&nbsp;&nbsp;
-                            <a href="https://www.researchgate.net/profile/April_Savoy" class="footer-logo" target="_blank"><img src="images/logos/research-gate.png"></a>&nbsp;&nbsp;
-                            <a href="https://www.regenstrief.org/person/april-savoy-phd/" class="footer-logo" target="_blank"><img src="images/logos/regenstrief-logo-square.png"></a>
-                    </div>
+                    <a href="images/savoyresume.pdf" class="btn btn-outline-light" target="_blank">Download My Resume</a>
                 </form>
             </div>
         </nav>
 
         <div class="container-fluid">
-            <div class="text-center">
-                <div class="row">
-                    <div class="text1" style="color: #252C3F;">
-                        <h1><b>April Savoy, Ph.D</b></h1>
-                        <p><b>M.S. Computer Science, Ph.D. Industrial Engineering</b></p>
-                    </div>
+            <div class="row">
+                <div class="container col-sm-12 col-md-12 col-lg-6">
                     <div class="text3" style="color: #252C3F;">
-                        <img src="images/savoy-headshot.png" alt="profile" height="350px">
+                        <img src="images/april-savoy-portrait.jpg" alt="profile" height="375px">
+                    </div>
+                </div>
 
+                <div class="col-sm-12 col-md-12 col-lg-6 text1" style="color: white;">
+                    <div class="container">
+                        <h1>About Me</h1>
+                        <svg width="400" height="10">
+                            <rect width="100" height="25" style="color: black; opacity: 0.7;" />
+                        </svg>
+                        <br>
+                        <br>
+                        <br>
+
+                        <p><b>Dr. April Savoy</b> is an Assistant Professor of Computer Information and Technology at IUPUI campus. She is a Core Investigator in the VA HSR&amp;D Center for Health Information and Communication and Director of the Human-Computer Interaction &amp; Simulation Lab at the Richard L. Roudebush Veteran Affairs Medical Center in Indianapolis. Appointed as a Regenstrief Research Scientist in 2017, her research interests include the implementation of user-centered design to develop, evaluate, and integrate health information technologies that will increase efficiency of clinicians’ workflow, enhance care coordination, and improve the quality of healthcare delivery.</p>
+                        <br>
+                        <br>
                     </div>
                 </div>
             </div>
         </div>
+
     </section>
-        
-    <section>
-        
-        <div id="mySidenav" class="sidenav">
-          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-          <a href="#about">About</a>
-          <a href="#experience">Experience</a>
-          <a href="#skills">Skills</a>
-          <a href="#grants">Grants</a>
-          <a href="#scholarships">Scholarships</a>
-          <a href="#courses">Courses</a>
-          <a href="#bgimage"><i class="fa fa-arrow-circle-up"></i></a>
+
+    <section style="z-index: 900">
+
+        <div id="mySidenav" class="sidenav" style="z-index: 10000;">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="index">Home</a>
+            <a href="publications">Publications</a>
+            <a href="contact">Contact</a>
+            <a href="blog">Blog</a>
         </div>
-        
-        <span class="menu-toggle-2" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
-        
+
+        <span class="menu-toggle-2" style="font-size:20px; cursor:pointer; z-index: 900; background: white; opacity: 0.7; border: 2px solid black; border-radius: 25px; padding-left: 10px; padding-right: 10px; padding-bottom: 4px;" onclick="openNav()">&#9776;&nbsp;Menu</span>
+
+    </section>
+
+    <section id="navbar-right" style="z-index: 1000;">
+        <div class="header-links" id="navbar-links">
+            <a href="mailto:asavoy@iupui.edu" class="fa fa-envelope-square"></a>&nbsp;&nbsp;
+            <a href="https://www.linkedin.com/in/april-savoy-phd-5735212/" class="fa fa-linkedin-square" target="_blank"></a>&nbsp;&nbsp;
+            <a href="https://www.researchgate.net/profile/April_Savoy" class="footer-logo" target="_blank"><img src="images/logos/research-gate.png"></a>&nbsp;&nbsp;
+            <a href="https://www.regenstrief.org/person/april-savoy-phd/" class="footer-logo" target="_blank"><img src="images/logos/regenstrief-logo-square.png"></a>
+
+            <div id="copyright-footer"><i class="fa fa-copyright"></i> April Savoy, PHD</div>
+        </div>
     </section>
 </header>
 
 <body>
-    <section style="background:#F0EBDF;" id="about">
+    <section style="background:#F9F9F9;" id="about">
         <div class="container">
             <br>
-            <br>
-            <h1 id="about-me-header">About Me</h1>
+
+            <h1 id="about-me-header">Education</h1>
             <svg width="400" height="10">
-                <rect width="100" height="25" style="fill:rgb(234,136,89);stroke-width:0;stroke:rgb(0,0,0); " />
+                <rect width="100" height="25" style="fill:rgb(217,162,137);stroke-width:0;stroke:rgb(0,0,0); " />
             </svg>
             <br>
             <br>
             <br>
 
             <div class="row">
-                <div class="col-sm-12 col-md-6 col-lg-6">
-                    <p><b>Dr. April Savoy</b> is an Assistant Professor of Computer Information and Technology at IUPUI campus. She is a Core Investigator in the VA HSR&amp;D Center for Health Information and Communication and Director of the Human-Computer Interaction &amp; Simulation Lab at the Richard L. Roudebush Veteran Affairs Medical Center in Indianapolis. Appointed as a Regenstrief Research Scientist in 2017, her research interests include the implementation of user-centered design to develop, evaluate, and integrate health information technologies that will increase efficiency of clinicians’ workflow, enhance care coordination, and improve the quality of healthcare delivery.</p>
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 offset-0" id="edu-img">
+                    <div>
+                        <img src="images/purdue-education-phd-photoshop.jpg" alt="Purdue University PHD" width="100%" class="">
+                    </div>
                 </div>
-                <div class="col-sm-12 col-md-6 col-lg-6">
-                    <p><b>Education</b><br>April Savoy, PhD’s educational background includes computer science and industrial engineering, with an emphasis on human-computer interaction (HCI). Dr. Savoy earned three degrees: B.S. in Computer Science from Xavier University of Louisiana, M.S. in Computer Science from Purdue University, and Ph.D. in Industrial Engineering from Purdue University. Following graduate school, she worked in industry as an associate researcher, user interface designer, and project manager.</p>
+
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 offset-0" id="edu-img">
+                    <div>
+                        <img src="images/purdue-education-ms-photoshop.jpg" alt="Purdue University MS" width="100%" class="">
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 offset-0" id="edu-img">
+                    <div>
+                        <img src="images/xavier-logo-3.jpg" alt="Xavier University of Louisiana BS" width="100%" class="">
+                    </div>
                 </div>
             </div>
             <br>
             <br>
         </div>
-        <hr id="hr-home">
 
     </section>
-        
-<section style="background:#F0EBDF; padding-left: 20px; padding-right: 20px;" id="experience">
-    <br>
-    <br>
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12 col-md-12 col-lg-12">
-                <h1 class="title-head inline">Experience</h1>
-                <br>
-                <svg width="300" height="10">
-                    <rect width="100" height="25" style="fill:rgb(234,136,89);stroke-width:0;stroke:rgb(0,0,0); " />
-                </svg>
-                <br>
-                <br>
-                <br>
-            </div>
 
-            <div class="title-bar"></div>
-            <div class='row'>
-                <div class='col-sm-12 col-md-2 col-lg-2 exp-img'>
-                    <img src='images/iupui.png' class='image' width="100px;">
-                </div>
-                
-                <div class='col-sm-12 col-md-10 col-lg-10 exp-content'>
-                    <h4>Assistant Professor, 2018 - Present</h4>
-                    <p>Indiana University Purdue University Indianapolis School of Engineering and Technology</p>
-                    <br>
-                    <p>it is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
-                </div>
-            </div>
-            
-            <div class='row'>
-                <div class='col-sm-12 col-md-2 col-lg-2 exp-img'>
-                    <img src='images/VA-Seal.png' class='image' width="100px;">
-                </div>
-                <div class='col-sm-12 col-md-10 col-lg-10 exp-content'>
-                    <h4>Director of Human Computer Interaction and Simulation Lab, 2014 - Present</h4>
-                    <p>Richard L. Roudebush Veterans Affairs Medical Center for Health Information and Communication</p>
-                    <br>
-                    <p>it is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
-                </div>
-            </div>
-            <div class='row'>
-                <div class='col-sm-12 col-md-2 col-lg-2 exp-img'>
-                    <img src='images/Indiana_Hoosiers_logo.png' class='image' width="100px;">
-                </div>
-                <div class='col-sm-12 col-md-10 col-lg-10 exp-content'>
-                    <h4>Assitant Professor and Director of Informatics, 2012 - 2018</h4>
-                    <p>Indiana University East</p>
-                    <br>
-                    <p>it is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
-                </div>
-            </div>
-            <div class='row'>
-                <div class='col-sm-12 col-md-2 col-lg-2 exp-img'>
-                    <img src='images/sa-tech.png' class='image' width="100px;">
-                </div>
-                <div class='col-sm-12 col-md-10 col-lg-10 exp-content'>
-                    <h4>Program Manager - Research Associate, 2008 - 2012</h4>
-                    <p>SA Technologies Inc.</p>
-                    <br>
-                    <p>it is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
-                </div>
-            </div>
-            <div class='row'>
-                <div class='col-sm-12 col-md-2 col-lg-2 exp-img'>
-                    <img src='images/aiu-logo.png' class='image' width="100px;">
-                </div>
-                <div class='col-sm-12 col-md-10 col-lg-10 exp-content'>
-                    <h4>Adjunct Professor, 2010 - 2012</h4>
-                    <p>American InterContinental University</p>
-                    <br>
-                    <p>it is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
-                </div>
-            </div>
-            <div class='row'>
-                <div class='col-sm-12 col-md-2 col-lg-2 exp-img'>
-                    <img src='images/purdue-boilermakers-logo.png' class='image' width="100px;">
-                </div>
-                <div class='col-sm-12 col-md-10 col-lg-10 exp-content'>
-                    <h4>Graduate Research Assistant, 2003 - 2004</h4>
-                    <p>Purdue University, Department of Computer Science</p>
-                    <br>
-                    <p>it is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
-                </div>
-            </div>
-            <br>
-            <br>
+    <section style="background:#F0EBDF; padding: 0; margin: 0; z-index: 1;" id="about">
+
+        <div class="col-sm-12 col-md-12 col-lg-12" style="padding:0; margin: 0; z-index: 1;">
+            <p id="research-grants-1">Work Experience</p>
+            <img src="images/friends.jpg" width="100%" style="z-index: 1;">
         </div>
-    </div>
-</section>
-    
-        <section style=" background:#6D909C;" id="skills">
-        <br>
-        <br>
-        <div class="container">
-            <h1>My Skills</h1>
-            <svg width="400" height="10">
-                <rect width="100" height="25" style="fill:rgb(234,136,89);stroke-width:0;stroke:rgb(0,0,0); " />
-            </svg>
-            <br>
-            <br>
-            <br>
 
-            <div class="text-center">
-                <div class="row">
-
-                    <div class="col-sm-6 col-md-6 col-lg-3">
-                        <div class="card index-card border-secondary mb-3" style="background: #252C3F;">
-                            <div class="card-body card-body-broken card-body-broken-2 text-secondary">
-                                <h5 class="card-title" style="color: #EA8859;">Human Computer Interaction</h5>
-                                <p class="card-text" style="color: #F0EBDF;">Advanced</p>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="col-sm-6 col-md-6 col-lg-3">
-                        <div class="card index-card border-secondary mb-3" style="background: #F0EBDF;">
-                            <div class="card-body text-secondary">
-                                <h5 class="card-title" style="color: #EA8859;">Usability</h5>
-                                <p class="card-text" style="color: #252C3F;">Advanced</p>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="col-sm-6 col-md-6 col-lg-3">
-                        <div class="card index-card border-secondary mb-3" style="background: #252C3F;">
-                            <div class="card-body card-body-broken text-secondary">
-                                <h5 class="card-title" style="color: #EA8859;">Information Architecture</h5>
-                                <p class="card-text" style="color: #F0EBDF;">Advanced</p>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="col-sm-6 col-md-6 col-lg-3">
-                        <div class="card index-card border-secondary mb-3" style="background: #F0EBDF;">
-                            <div class="card-body card-body-broken text-secondary">
-                                <h5 class="card-title" style="color: #EA8859;">Software Development</h5>
-                                <p class="card-text" style="color: #252C3F;">Native</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="text-center">
-                <div class="row">
-                    <div class="col-sm-6 col-md-6 col-lg-3">
-                        <div class="card index-card border-secondary mb-3" style="background: #F0EBDF;">
-                            <div class="card-body card-body-broken text-secondary">
-                                <h5 class="card-title" style="color: #EA8859;">User-centered Design</h5>
-                                <p class="card-text" style="color: #252C3F;">Proficient</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-md-6 col-lg-3">
-                        <div class="card index-card border-secondary mb-3" style="background: #252C3F;">
-                            <div class="card-body card-body-broken text-secondary">
-                                <h5 class="card-title" style="color: #EA8859;">User Interface Design</h5>
-                                <p class="card-text" style="color: #F0EBDF;">Native</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-md-6 col-lg-3">
-                        <div class="card index-card border-secondary mb-3" style="background: #F0EBDF;">
-                            <div class="card-body text-secondary">
-                                <h5 class="card-title" style="color: #EA8859;">User Experience</h5>
-                                <p class="card-text" style="color: #252C3F;">Advanced</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-md-6 col-lg-3">
-                        <div class="card index-card border-secondary mb-3" style="background: #252C3F;">
-                            <div class="card-body text-secondary">
-                                <h5 class="card-title" style="color: #EA8859;">Usability Testing</h5>
-                                <p class="card-text" style="color: #F0EBDF;">Proficient</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="text-center">
-                <div class="row">
-                    <div class="col-sm-6 col-md-6 col-lg-3">
-                        <div class="card index-card border-secondary mb-3" style="background: #252C3F;">
-                            <div class="card-body card-body-broken text-secondary">
-                                <h5 class="card-title" style="color: #EA8859;">User Experience Design</h5>
-                                <p class="card-text" style="color: #F0EBDF;">Advanced</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-md-6 col-lg-3">
-                        <div class="card index-card border-secondary mb-3" style="background: #F0EBDF;">
-                            <div class="card-body text-secondary">
-                                <h5 class="card-title" style="color: #EA8859;">Project Management</h5>
-                                <p class="card-text" style="color: #252C3F;">Advanced</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-md-6 col-lg-3">
-                        <div class="card index-card border-secondary mb-3" style="background: #252C3F;">
-                            <div class="card-body text-secondary">
-                                <h5 class="card-title" style="color: #EA8859;">Integration</h5>
-                                <p class="card-text" style="color: #F0EBDF;">Advanced</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-md-6 col-lg-3">
-                        <div class="card index-card border-secondary mb-3" style="background: #F0EBDF;">
-                            <div class="card-body text-secondary">
-                                <h5 class="card-title" style="color: #EA8859;">User Interface</h5>
-                                <p class="card-text" style="color: #252C3F;">Native</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <br>
-        <br>
     </section>
-    
-        <section style="background: #F0EBDF" id="grants">
-        <div class="container">
-            <br>
-            <br>
+
+    <section style="background: #F1F0FF; padding-left: 20px; padding-right: 20px; height: 100%;" id="experience">
+        <br>
+        <br>
+        <div class="container" id="experience-container">
             <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-12" id="experience-title">
+                    <h1 class="title-head inline">Experience</h1>
+                    <br>
+                    <svg width="300" height="10">
+                        <rect width="100" height="25" style="fill:rgb(195, 195, 229)
+;stroke-width:0;stroke:rgb(0,0,0); " />
+                    </svg>
+                    <br>
+                    <br>
+                    <br>
+                </div>
+
+                <div class="title-bar"></div>
+                <div class='row'>
+                    <div class='col-sm-12 col-md-2 col-lg-2 exp-img'>
+                        <img src='images/iupui.png' class='image' width="100px;">
+                    </div>
+
+                    <div class='col-sm-12 col-md-10 col-lg-10 exp-content'>
+                        <h4>Assistant Professor, 2018 - Present</h4>
+                        <p>Indiana University Purdue University Indianapolis School of Engineering and Technology</p>
+                        <br>
+                        <p>You could list some of the duties from the experience here to act as filler space.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                </div>
+
+                <div class='row'>
+                    <div class='col-sm-12 col-md-2 col-lg-2 exp-img'>
+                        <img src='images/VA-Seal.png' class='image' width="100px;">
+                    </div>
+                    <div class='col-sm-12 col-md-10 col-lg-10 exp-content'>
+                        <h4>Director of Human Computer Interaction and Simulation Lab, 2014 - Present</h4>
+                        <p>Richard L. Roudebush Veterans Affairs Medical Center for Health Information and Communication</p>
+                        <br>
+                        <p>You could list some of the duties from the experience here to act as filler space.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                </div>
+                <div class='row'>
+                    <div class='col-sm-12 col-md-2 col-lg-2 exp-img'>
+                        <img src='images/Indiana_Hoosiers_logo.png' class='image' width="100px;">
+                    </div>
+                    <div class='col-sm-12 col-md-10 col-lg-10 exp-content'>
+                        <h4>Assistant Professor and Director of Informatics, 2012 - 2018</h4>
+                        <p>Indiana University East</p>
+                        <br>
+                        <p>You could list some of the duties from the experience here to act as filler space.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                </div>
+                <div class='row'>
+                    <div class='col-sm-12 col-md-2 col-lg-2 exp-img'>
+                        <img src='images/sa-tech.png' class='image' width="100px;">
+                    </div>
+                    <div class='col-sm-12 col-md-10 col-lg-10 exp-content'>
+                        <h4>Program Manager - Research Associate, 2008 - 2012</h4>
+                        <p>SA Technologies Inc.</p>
+                        <br>
+                        <p>You could list some of the duties from the experience here to act as filler space.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                </div>
+                <div class='row'>
+                    <div class='col-sm-12 col-md-2 col-lg-2 exp-img'>
+                        <img src='images/aiu-logo.png' class='image' width="100px;">
+                    </div>
+                    <div class='col-sm-12 col-md-10 col-lg-10 exp-content'>
+                        <h4>Adjunct Professor, 2010 - 2012</h4>
+                        <p>American InterContinental University</p>
+                        <br>
+                        <p>You could list some of the duties from the experience here to act as filler space.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                </div>
+                <div class='row'>
+                    <div class='col-sm-12 col-md-2 col-lg-2 exp-img'>
+                        <img src='images/purdue-boilermakers-logo.png' class='image' width="100px;">
+                    </div>
+                    <div class='col-sm-12 col-md-10 col-lg-10 exp-content'>
+                        <h4>Graduate Research Assistant, 2003 - 2004</h4>
+                        <p>Purdue University, Department of Computer Science</p>
+                        <br>
+                        <p>You could list some of the duties from the experience here to act as filler space.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                </div>
+                <br>
+            </div>
+        </div>
+    </section>
+
+    <section style="background:#F0EBDF; padding: 0; margin: 0; z-index: 1;" id="about">
+
+        <div class="col-sm-12 col-md-12 col-lg-12" style="padding:0; margin: 0; z-index: 1;">
+            <p id="research-grants-2">Research &amp; Grants</p>
+            <img src="images/research-grants-2.jpg" width="100%" style="z-index: 1;">
+        </div>
+
+    </section>
+
+    <section style="background: #F1F0FF;" id="grants">
+        <div class="container" id="research-container">
+            <br>
+            <br>
+            <div class="row" id="research-titles">
                 <div class="col-sm-12">
                     <h1>Research Grants Awarded</h1>
                     <svg width="300" height="10">
-                        <rect width="100" height="25" style="fill:rgb(234,136,89);stroke-width:0;stroke:rgb(0,0,0); " />
+                        <rect width="100" height="25" style="fill:rgb(195, 195, 229);stroke-width:0;stroke:rgb(0,0,0); " />
                     </svg>
                     <br>
                     <br>
@@ -371,7 +276,7 @@
                                     Research &amp; Technical Area: Health Services and Informatics</p>
                             </div>
                         </div>
-                    </div>
+                    </div><br>
                     <div class="media">
                         <div class="media-left media-middle">
                             <img src="images/VA-Seal.png" class="media-object" style="width:60px">
@@ -384,7 +289,7 @@
                                     Research &amp; Technical Area: Health Services and Informatics</p>
                             </div>
                         </div>
-                    </div>
+                    </div><br>
                     <div class="media">
                         <div class="media-left media-middle">
                             <img src="images/iu.png" class="media-object" style="width:60px">
@@ -397,7 +302,7 @@
                                     Research &amp; Technical Area: Health Informatics</p>
                             </div>
                         </div>
-                    </div>
+                    </div><br>
                     <div class="media">
                         <div class="media-left media-middle">
                             <img src="images/VA-Seal.png" class="media-object" style="width:60px">
@@ -410,7 +315,7 @@
                                     Research &amp; Technical Area: Health Services and Informatics</p>
                             </div>
                         </div>
-                    </div>
+                    </div><br>
                     <div class="media">
                         <div class="media-left media-middle">
                             <img src="images/VA-Seal.png" class="media-object" style="width:60px">
@@ -423,7 +328,7 @@
                                     Research &amp; Technical Area: Health Services and Informatics</p>
                             </div>
                         </div>
-                    </div>
+                    </div><br>
                     <div class="media">
                         <div class="media-left media-middle">
                             <img src="images/iu.png" class="media-object" style="width:60px">
@@ -436,7 +341,7 @@
                                     Research &amp; Technical Area: Usability of Course Management Systems</p>
                             </div>
                         </div>
-                    </div>
+                    </div><br>
                     <div class="media">
                         <div class="media-left media-middle">
                             <img src="images/VA-Seal.png" class="media-object" style="width:60px">
@@ -449,7 +354,7 @@
                                     Research &amp; Technical Area: Information Systems</p>
                             </div>
                         </div>
-                    </div>
+                    </div><br>
                     <div class="media">
                         <div class="media-left media-middle">
                             <img src="images/dod.png" class="media-object" style="width:60px">
@@ -470,15 +375,15 @@
         </div>
     </section>
 
-    <section style="background: #6D909C;">
-        <div class="container">
+    <section style="background: #C3C3E5">
+        <div class="container" id="quality-container">
             <br>
             <br>
-            <div class="row">
+            <div class="row" id="quality-titles">
                 <div class="col-sm-12">
-                    <h1>Quality Improvement Grants Awarded</h1>
+                    <h1 id="quality-title">Quality Improvement Grants Awarded</h1>
                     <svg width="400" height="10">
-                        <rect width="100" height="25" style="fill:rgb(234,136,89);stroke-width:0;stroke:rgb(0,0,0); " />
+                        <rect width="100" height="25" style="fill:rgb(68, 50, 102);stroke-width:0;stroke:rgb(0,0,0); " />
                     </svg>
                     <br>
                     <br>
@@ -495,7 +400,7 @@
                                     Research &amp; Technical Area: Health Services and Informatics</p>
                             </div>
                         </div>
-                    </div>
+                    </div><br>
 
 
                     <div class="media">
@@ -510,7 +415,7 @@
                                     Research &amp; Technical Area: Health Services and Informatics</p>
                             </div>
                         </div>
-                    </div>
+                    </div><br>
 
 
                     <div class="media">
@@ -525,7 +430,7 @@
                                     Research &amp; Technical Area: Health Services and Informatics</p>
                             </div>
                         </div>
-                    </div>
+                    </div><br>
 
 
                     <div class="media">
@@ -545,17 +450,18 @@
             </div>
             <br>
             <br>
+        </div>
     </section>
-        
-    <section style="background: #F0EBDF" id="scholarships">
+
+    <section style="background: #F9F9F9" id="scholarships">
         <br>
         <br>
-        <div class="container">
-            <div class="row">
+        <div class="container" id="fellowships-container">
+            <div class="row" id="fellowships-titles">
                 <div class="col-sm-12">
                     <h1>Fellowships &amp; Scholarships Awarded</h1>
                     <svg width="400" height="10">
-                        <rect width="100" height="25" style="fill:rgb(234,136,89);stroke-width:0;stroke:rgb(0,0,0); " />
+                        <rect width="100" height="25" style="fill:rgb(217,162,137);stroke-width:0;stroke:rgb(0,0,0); " />
                     </svg>
                     <br>
                     <br>
@@ -573,7 +479,7 @@
                                     Research &amp; Technical Area: Informatics</p>
                             </div>
                         </div>
-                    </div>
+                    </div><br>
 
 
                     <div class="media">
@@ -588,7 +494,7 @@
                                     Research &amp; Technical Area: Computer Science</p>
                             </div>
                         </div>
-                    </div>
+                    </div><br>
 
 
                     <div class="media">
@@ -603,7 +509,7 @@
                                     Research &amp; Technical Area: Computer Science</p>
                             </div>
                         </div>
-                    </div>
+                    </div><br>
 
 
                     <div class="media">
@@ -618,7 +524,7 @@
                                     Research &amp; Technical Area: Computer Science</p>
                             </div>
                         </div>
-                    </div>
+                    </div><br>
 
 
                     <div class="media">
@@ -638,24 +544,32 @@
                 </div>
             </div>
         </div>
-        </div>
         <br>
         <br>
-        <hr id="hr-home">
     </section>
-    
-    <section style="background:#F0EBDF;" id="courses">
-        <br>
-        <br>
-        <div class="container">
+
+    <section style="background:#F0EBDF; padding: 0; margin: 0; z-index: 1;" id="about">
+
+        <div class="col-sm-12 col-md-12 col-lg-12" style="padding:0; margin: 0; z-index: 1;">
+            <p id="research-grants-3">Courses</p>
+            <img src="images/classroom-2.jpg" width="100%" style="z-index: 1;">
+        </div>
+
+
+    </section>
+
+    <section style="background:#F9F9F9;">
+        <br><br>
+        <div class="container" id="courses">
 
             <div class="row">
+
                 <div class="title-section" onclick="myFunction()">
                     <img src="images/drop.svg" alt="down arrow" height="15" class="inline">
-                    <h1 class="title-head inline">Courses Currently Teaching</h1>
+                    <h1 class="title-head inline" id="courses-title">Courses Currently Teaching</h1>
                     <br>
                     <svg width="400" height="10">
-                        <rect width="100" height="25" style="fill:rgb(234,136,89);stroke-width:0;stroke:rgb(0,0,0); " />
+                        <rect width="100" height="25" style="fill:rgb(217,162,137);stroke-width:0;stroke:rgb(0,0,0); " />
                     </svg>
                     <br>
                     <br>
@@ -687,30 +601,31 @@
                         </div>
 
                         <div class="col-sm-12 col-md-12 col-lg-6">
+                            
                             <div class="group-middle">
                                 <h3 class="group-heading">Description:</h3>
                                 <p class="group-para">
                                     Intensive exploration of application and database analysis in a synergistic environment. Students engage in collaborative, project-based activities to learn about project management, requirement analysis, modeling, and prototyping employing problem solving and team building skills. Object-oriented and data modeling tools are used to apply class concepts.
                                 </p>
-                                <h3 class="group-heading outcomes">Outcome(s):</h3>
+                                <h3 class="group-heading outcomes" id="learning-objectives">Learning Objectives:</h3>
                                 <ul>
                                     <li>
-                                        Utilize information gathering techniques to determine the requirements of the problem to be solved (CIT b)
+                                        Explain what project management is and why it is important
                                     </li>
                                     <li>
-                                        Apply data, process, and object modeling techniques (CIT i)
+                                        Manage Scrum cycles &amp; the backlog
                                     </li>
                                     <li>
-                                        Integrate the processes of analysis and modeling within a semester project (CIT k)
+                                        Sample existing documentation, forms, and files and create good user stories
                                     </li>
                                     <li>
-                                        Develop well-formed logical and conceptual database designs (CIT b)
+                                        Explain the four stages of team formation, describe the characteristics of effective teams, and discuss and apply conflict management techniques
                                     </li>
                                     <li>
-                                        Prototype and document an acceptable solution to a problem (CIT f, k)
+                                        Explain the importance of knowing the audience prior to communicating to those individuals, plan and conduct an effective meeting as well as an effective presentation
                                     </li>
                                     <li>
-                                        Apply project and team management skills (CIT d, n)
+                                        Prepare a report to communicate information about a systems development project
                                     </li>
                                 </ul>
                             </div>
@@ -747,6 +662,27 @@
                                 <p class="group-para">
                                     Computer literacy. Problem solving with information technology; introduction to information representation, relational databases, system design, propositional logic, cutting edge technologies; CPU, operating systems, networks; laboratory emphasizing information technology including webpage design, word processing, and databases using tools available on campus.
                                 </p>
+                                <h3 class="group-heading outcomes" id="learning-objectives">Learning Objectives:</h3>
+                                    <ul>
+                                        <li>
+                                            Design websites on the basis of the users' requirements
+                                        </li>
+                                        <li>
+                                            Create web pages using HTML and CSS
+                                        </li>
+                                        <li>
+                                            Write statements in Javascript, including defining variables and using Javascript constructs
+                                        </li>
+                                        <li>
+                                            Use object-oriented programming languages
+                                        </li>
+                                        <li>
+                                            Explain what is a script and how to create one
+                                        </li>
+                                        <li>
+                                            Store and query data in databases, visualize data sets, and explain introductory concepts of Human Computer Interaction 
+                                        </li>
+                                    </ul>
                             </div>
                         </div>
                     </div>
@@ -783,6 +719,24 @@
                                     <p class="group-para">
                                         Introduction to key social research perspectives and literatures on the use of information and communication technologies. Discusses current topics such as information ethics, relevant legal frameworks, popular and controversial uses of technology e.g. peer-to-peer file sharing, digital divides, etc. Outlines research methodologies for social informatics.
                                     </p>
+                                    <h3 class="group-heading outcomes" id="learning-objectives">Learning Objectives:</h3>
+                                    <ul>
+                                        <li>
+                                            Social Informatics concepts and social networks
+                                        </li>
+                                        <li>
+                                            Social Informatics and Information Technologies
+                                        </li>
+                                        <li>
+                                            Trends and impact of Social Informatics on individual and social identities
+                                        </li>
+                                        <li>
+                                            Social and computational issues in Social Informatics
+                                        </li>
+                                        <li>
+                                            Ethical and legal issues in Social Informatics
+                                        </li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
@@ -818,6 +772,31 @@
                                 <p class="group-para">
                                     The analysis of human factors and the design of computer application interfaces. A survey of current HCI designs with an eye toward what future technologies will allow. The course will emphasize learning HCI based on implementation and testing interfaces.
                                 </p>
+                                <h3 class="group-heading outcomes" id="learning-objectives">Learning Objectives:</h3>
+                                    <ul>
+                                        <li>
+                                            Understand basic types of metrics for measuring user
+                                            experience in human-computer interaction
+                                        </li>
+                                        <li>
+                                            Understand how to analyze data from a usability test
+                                            using basic statistics and graphing
+                                        </li>
+                                        <li>
+                                            Understand effect of culture and diversity on testing
+                                        </li>
+                                        <li>
+                                            Understand ethical issues involved in usability testing
+                                        </li>
+                                        <li>
+                                            Understand how to plan and moderate a usability test,
+                                            with the ability to apply learned principles flexibly to specific test and reporting situations
+                                        </li>
+                                        <li>
+                                            Demonstrate the ability to write a summary of the
+                                            results of a usability study
+                                        </li>
+                                    </ul>
                             </div>
                         </div>
 
@@ -853,8 +832,39 @@
                                 <div class="group-middle">
                                     <h3 class="group-heading">Description:</h3>
                                     <p class="group-para">
-                                        At least junior standing or permission of instructor. Variable topics. Emphasis is on new developments and research in informatics. May be repeated for credit when topics vary, subject to approval of the informatics director.
+                                        This course focuses on the examination of principles of human-computer interaction (HCI)
+                                        and user experience modeling. Students will learn about user-centered design, usability, and
+                                        usability testing in the context of digital media (e.g., web sites, mobile applications). Topics
+                                        covered in the course include aesthetics, human factors, and cognitive psychology as related
+                                        to user interfaces, navigation, and interactivity.
                                     </p>
+                                    
+                                    <h3 class="group-heading outcomes" id="learning-objectives">Learning Objectives:</h3>
+                                    <ul>
+                                        <li>
+                                            Recall and communicate techniques and processes for
+                                            user-centered design and usability testing
+                                        </li>
+                                        <li>
+                                            Execute usability and user-centered design techniques
+                                            and provide a written report of the outcomes
+                                        </li>
+                                        <li>
+                                            Conduct a task analysis using heuristics, use cases, and activity diagrams to develop logical sequences for users to complete tasks
+                                        </li>
+                                        <li>
+                                            Document the information architecture for a web site or application that provides access to a large set of data
+                                        </li>
+                                        <li>
+                                            Conduct user research and develop models of users for guiding design activities
+                                        </li>
+                                        <li>
+                                            Develop multiple conceptual designs and select or synthesize a concept to develop a prototype for evaluation
+                                        </li>
+                                        <li>
+                                            Evaluate the usability of prototypes and make recommendations for improvements based on the findings
+                                        </li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
@@ -883,21 +893,21 @@
                         </div>
 
                         <div class="col-sm-12 col-md-12 col-lg-6">
-                        <div class="middle-col">
-                            <div class="group-middle">
-                                <h3 class="group-heading">Description:</h3>
-                                <p class="group-para">
-                                    Students culminate their course studies through practical application of concepts and practices working in industry. Course requires prior authorization and approval of internship through the Career Services Office. Required coursework is completed via Oncourse.
-                                </p>
+                            <div class="middle-col">
+                                <div class="group-middle">
+                                    <h3 class="group-heading">Description:</h3>
+                                    <p class="group-para">
+                                        Students culminate their course studies through practical application of concepts and practices working in industry. Course requires prior authorization and approval of internship through the Career Services Office. Required coursework is completed via Oncourse.
+                                    </p>
+                                </div>
                             </div>
-                        </div>
                         </div>
 
                     </div>
 
                     <hr>
 
-                    
+
                     <div class="course flexbox center">
                         <div class="col-sm-12 col-md-12 col-lg-6">
                             <div class="group-left">
@@ -918,299 +928,289 @@
                         </div>
 
                         <div class="col-sm-12 col-md-12 col-lg-6">
-                        <div class="middle-col">
-                            <div class="group-middle">
-                                <h3 class="group-heading">Description:</h3>
-                                <p class="group-para">
-                                    The senior student prepares and presents a thesis: a substantial, typically multichapter paper based on a well-planned research or scholarly project, as determined by the student and a sponsoring faculty member.
-                                </p>
+                            <div class="middle-col">
+                                <div class="group-middle">
+                                    <h3 class="group-heading">Description:</h3>
+                                    <p class="group-para">
+                                        The senior student prepares and presents a thesis: a substantial, typically multichapter paper based on a well-planned research or scholarly project, as determined by the student and a sponsoring faculty member.
+                                    </p>
+                                </div>
                             </div>
-                        </div>
                         </div>
 
                     </div>
                 </div>
             </div>
         </div>
+        
+        <hr id="hr-home">
 
     </section>
 
-    <section style="background:#D4CCBD;">
+    <section style="background:#F9F9F9;">
         <br>
         <br>
-        <div class="container">
+        <div class="container" id="courses">
 
             <div class="row">
                 <div class="col-sm-12" id="course-2">
-                <div class="title-section" onclick="myFunction2()">
-                    <img src="images/drop.svg" alt="down arrow" height="15" class="inline">
-                    <h1 class="title-head inline">Courses Previously Taught</h1>
-                    <br>
-                    <svg width="400" height="10">
-                        <rect width="100" height="25" style="fill:rgb(234,136,89);stroke-width:0;stroke:rgb(0,0,0); " />
-                    </svg>
-                    <br>
-                    <br>
-                    <br>
-                    <div class="title-bar"></div>
+                    <div class="title-section" onclick="myFunction2()">
+                        <img src="images/drop.svg" alt="down arrow" height="15" class="inline">
+                        <h1 class="title-head inline" id="courses-title">Courses Previously Taught</h1>
+                        <br>
+                        <svg width="400" height="10">
+                            <rect width="100" height="25" style="fill:rgb(217,162,137);stroke-width:0;stroke:rgb(0,0,0); " />
+                        </svg>
+                        <br>
+                        <br>
+                        <br>
+                        <div class="title-bar"></div>
+                    </div>
+
+                    <div id="myDIV2" style="display: none;">
+                        <div class="course flexbox center">
+                            <div class="col-sm-12 col-md-12 col-lg-6">
+                                <div class="group-left">
+                                    <img src="images/iulogo.png" alt="IU" class="col-pic">
+                                    <h3 class="group-heading">University:</h3>
+                                    <span class="group-span">Indiana University East</span>
+
+                                    <h3 class="group-heading">Course Name:</h3>
+                                    <span class="group-span"><a href="https://www.iue.edu/business/mis/courses.php" target="_blank">IIM-I300 Foundations and Principles of Integrated Information Management</a></span>
+
+                                    <h3 class="group-heading">Date:</h3>
+                                    <span class="group-span">2012 - 2018</span>
+
+                                    <h3 class="group-heading">Credits:</h3>
+                                    <span class="group-span">3</span>
+
+                                </div>
+                            </div>
+
+                            <div class="col-sm-12 col-md-12 col-lg-6">
+                                <div class="middle-col">
+                                    <div class="group-middle">
+                                        <h3 class="group-heading">Description:</h3>
+                                        <p class="group-para">
+                                            Introduction to concepts of management information systems. Techniques for information sharing. Discussion of hardware and software standards. Supporting end users. Using microcomputers as workstations. Related ethical issues.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <hr>
+
+                        <div class="course flexbox center">
+                            <div class="col-sm-12 col-md-12 col-lg-6">
+                                <div class="group-left-2">
+                                    <img src="images/aiulogo.png" alt="AIU" class="col-pic">
+                                    <h3 class="group-heading">University:</h3>
+                                    <span class="group-span">American InterContinental University</span>
+
+                                    <h3 class="group-heading">Course Name:</h3>
+                                    <span class="group-span"><a href="https://www.aiuniv.edu/" target="_blank">Unix Security</a></span>
+
+                                    <h3 class="group-heading">Date:</h3>
+                                    <span class="group-span">2010 - 2012</span>
+
+                                    <h3 class="group-heading">Credits:</h3>
+                                    <span class="group-span">3</span>
+
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-12 col-lg-6">
+                                <div class="middle-col">
+                                    <div class="group-middle">
+                                        <h3 class="group-heading">Description:</h3>
+                                        <p class="group-para">
+                                            This course covers techniques used to secure operating systems. Typical vulnerabilities, exploits, and countermeasures are covered. Also covered are third-party software and built-in utilities that can be used to protect operating systems from hacking. Operating systems covered include Windows, Unix, Mac, Linux, and z-OS. Vulnerabilities that are introduced by applications, open ports, and services are covered.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <hr>
+
+                        <div class="course flexbox center">
+                            <div class="col-sm-12 col-md-12 col-lg-6">
+                                <div class="group-left-2">
+                                    <img src="images/aiulogo.png" alt="AIU" class="col-pic">
+                                    <h3 class="group-heading">University:</h3>
+                                    <span class="group-span">American InterContinental University</span>
+
+                                    <h3 class="group-heading">Course Name:</h3>
+                                    <span class="group-span"><a href="https://www.aiuniv.edu/" target="_blank">Human/Computer Interface Interactions</a></span>
+
+                                    <h3 class="group-heading">Date:</h3>
+                                    <span class="group-span">2010 - 2012</span>
+
+                                    <h3 class="group-heading">Credits:</h3>
+                                    <span class="group-span">3</span>
+
+                                </div>
+                            </div>
+
+                            <div class="col-sm-12 col-md-12 col-lg-6">
+                                <div class="middle-col">
+                                    <div class="group-middle">
+                                        <h3 class="group-heading">Description:</h3>
+                                        <p class="group-para">
+                                            The course examines human factors and performance in relation to technology applications, components of technology, and methods and techniques used in the design and evaluation of system and application interfaces.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <hr>
+
+                        <div class="course flexbox center">
+                            <div class="col-sm-12 col-md-12 col-lg-6">
+                                <div class="group-left-2">
+                                    <img src="images/aiulogo.png" alt="AIU" class="col-pic">
+                                    <h3 class="group-heading">University:</h3>
+                                    <span class="group-span">American InterContinental University</span>
+
+                                    <h3 class="group-heading">Course Name:</h3>
+                                    <span class="group-span"><a href="https://www.aiuniv.edu/" target="_blank">Intrusion Detection and Prevention for Windows Security</a></span>
+
+                                    <h3 class="group-heading">Date:</h3>
+                                    <span class="group-span">2010 - 2012</span>
+
+                                    <h3 class="group-heading">Credits:</h3>
+                                    <span class="group-span">3</span>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-12 col-md-12 col-lg-6">
+                                <div class="middle-col">
+                                    <div class="group-middle">
+                                        <h3 class="group-heading">Description:</h3>
+                                        <p class="group-para">
+                                            This course covers intrusion detection, server security (with emphasis on the Windows operating system and server), and related advanced administration tasks on enterprise servers. Topics may include host and network based intrusion detection, implementing automated protection, packet filtering, software/hardware firewalls, directory concepts, account and group access control, security policies, installation and manual configuration, backup and recovery services, server and client policy security, securely deploying infrastructure servers, and hardening server security.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <hr>
+
+                        <div class="course flexbox center">
+                            <div class="col-sm-12 col-md-12 col-lg-6">
+                                <div class="group-left-2">
+                                    <img src="images/aiulogo.png" alt="AIU" class="col-pic">
+                                    <h3 class="group-heading">University:</h3>
+                                    <span class="group-span">American InterContinental University</span>
+
+                                    <h3 class="group-heading">Course Name:</h3>
+                                    <span class="group-span"><a href="https://www.aiuniv.edu/" target="_blank">Topics in Security Management</a></span>
+
+                                    <h3 class="group-heading">Date:</h3>
+                                    <span class="group-span">2010 - 2012</span>
+
+                                    <h3 class="group-heading">Credits:</h3>
+                                    <span class="group-span">3</span>
+
+                                </div>
+                            </div>
+
+                            <div class="col-sm-12 col-md-12 col-lg-6">
+                                <div class="middle-col">
+                                    <div class="group-middle">
+                                        <h3 class="group-heading">Description:</h3>
+                                        <p class="group-para">
+                                            This course covers network security principles and implementation techniques. Topics covered include examples of attacks and countermeasures for securing e-mail, definitions and principles underpinning all IT security, security management, and security architectures. Fundamental concepts, principles, and practical networking and internetworking issues relevant to the design, analysis, and implementation of enterprise-level trusted networked information systems are also covered.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <hr>
+
+                        <div class="course flexbox center">
+                            <div class="col-sm-12 col-md-12 col-lg-6">
+                                <div class="group-left-2">
+                                    <img src="images/aiulogo.png" alt="AIU" class="col-pic">
+                                    <h3 class="group-heading">University:</h3>
+                                    <span class="group-span">American InterContinental University</span>
+
+                                    <h3 class="group-heading">Course Name:</h3>
+                                    <span class="group-span"><a href="https://www.aiuniv.edu/" target="_blank">Defense in Depth</a></span>
+
+                                    <h3 class="group-heading">Date:</h3>
+                                    <span class="group-span">2010 - 2012</span>
+
+                                    <h3 class="group-heading">Credits:</h3>
+                                    <span class="group-span">3</span>
+
+                                </div>
+                            </div>
+
+                            <div class="col-sm-12 col-md-12 col-lg-6">
+                                <div class="middle-col">
+                                    <div class="group-middle">
+                                        <h3 class="group-heading">Description:</h3>
+                                        <p class="group-para">
+                                            This survey course covers information security concepts and mechanisms. Information security concepts reviewed may include data protection techniques, software security, information assurance process, enterprise network security, and attack types/countermeasures.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <hr>
+
+                        <div class="course flexbox center">
+                            <div class="col-sm-12 col-md-12 col-lg-6">
+                                <div class="group-left-2">
+                                    <img src="images/aiulogo.png" alt="AIU" class="col-pic">
+                                    <h3 class="group-heading">University:</h3>
+                                    <span class="group-span">American InterContinental University</span>
+
+                                    <h3 class="group-heading">Course Name:</h3>
+                                    <span class="group-span"><a href="https://www.aiuniv.edu/" target="_blank">Introduction to Information Security</a></span>
+
+                                    <h3 class="group-heading">Date:</h3>
+                                    <span class="group-span">2010 - 2012</span>
+
+                                    <h3 class="group-heading">Credits:</h3>
+                                    <span class="group-span">3</span>
+
+                                </div>
+                            </div>
+
+                            <div class="col-sm-12 col-md-12 col-lg-6">
+                                <div class="middle-col">
+                                    <div class="group-middle">
+                                        <h3 class="group-heading">Description:</h3>
+                                        <p class="group-para">
+                                            This course provides students with an introduction to the concepts and systems involved in digital investigations and cyber crime. The course discusses recognized incident response policies and procedures for collecting, preserving, analyzing, and reporting digital evidence, cyber crime history, and current and future threats.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
                 </div>
-
-                <div id="myDIV2" style="display: none;">
-                    <div class="course flexbox center">
-                        <div class="col-sm-12 col-md-12 col-lg-6">
-                            <div class="group-left">
-                                <img src="images/iulogo.png" alt="IU" class="col-pic">
-                                <h3 class="group-heading">University:</h3>
-                                <span class="group-span">Indiana University East</span>
-
-                                <h3 class="group-heading">Course Name:</h3>
-                                <span class="group-span"><a href="https://www.iue.edu/business/mis/courses.php" target="_blank">IIM-I300 Foundations and Principles of Integrated Information Management</a></span>
-
-                                <h3 class="group-heading">Date:</h3>
-                                <span class="group-span">2012 - 2018</span>
-
-                                <h3 class="group-heading">Credits:</h3>
-                                <span class="group-span">3</span>
-
-                            </div>
-                        </div>
-                        
-                        <div class="col-sm-12 col-md-12 col-lg-6">
-                        <div class="middle-col">
-                            <div class="group-middle">
-                                <h3 class="group-heading">Description:</h3>
-                                <p class="group-para">
-                                    Introduction to concepts of management information systems. Techniques for information sharing. Discussion of hardware and software standards. Supporting end users. Using microcomputers as workstations. Related ethical issues.
-                                </p>
-                            </div>
-                        </div>
-                        </div>
-
-                    </div>
-
-                    <hr>
-
-                    <div class="course flexbox center">
-                        <div class="col-sm-12 col-md-12 col-lg-6">
-                            <div class="group-left-2">
-                                <img src="images/aiulogo.png" alt="AIU" class="col-pic">
-                                <h3 class="group-heading">University:</h3>
-                                <span class="group-span">American InterContinental University</span>
-
-                                <h3 class="group-heading">Course Name:</h3>
-                                <span class="group-span"><a href="https://www.aiuniv.edu/" target="_blank">Unix Security</a></span>
-
-                                <h3 class="group-heading">Date:</h3>
-                                <span class="group-span">2010 - 2012</span>
-
-                                <h3 class="group-heading">Credits:</h3>
-                                <span class="group-span">3</span>
-
-                            </div>
-                        </div>
-                        <div class="col-sm-12 col-md-12 col-lg-6">
-                        <div class="middle-col">
-                            <div class="group-middle">
-                                <h3 class="group-heading">Description:</h3>
-                                <p class="group-para">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui. Quisque nec mauris sit amet elit iaculis pretium sit amet quis magna. Aenean velit odio, elementum in tempus ut, vehicula eu diam. Pellentesque rhoncus aliquam mattis. Ut vulputate eros sed felis sodales nec vulputate justo hendrerit. Vivamus varius pretium ligula, a aliquam odio euismod sit amet. Quisque laoreet sem sit amet orci ullamcorper at ultricies metus viverra. Pellentesque arcu mauris, malesuada quis ornare accumsan, blandit sed diam.
-                                </p>
-                            </div>
-                        </div>
-                        </div>
-
-                    </div>
-
-                    <hr>
-
-                    <div class="course flexbox center">
-                        <div class="col-sm-12 col-md-12 col-lg-6">
-                            <div class="group-left-2">
-                                <img src="images/aiulogo.png" alt="AIU" class="col-pic">
-                                <h3 class="group-heading">University:</h3>
-                                <span class="group-span">American InterContinental University</span>
-
-                                <h3 class="group-heading">Course Name:</h3>
-                                <span class="group-span"><a href="https://www.aiuniv.edu/" target="_blank">Human/Computer Interface Interactions</a></span>
-
-                                <h3 class="group-heading">Date:</h3>
-                                <span class="group-span">2010 - 2012</span>
-
-                                <h3 class="group-heading">Credits:</h3>
-                                <span class="group-span">3</span>
-
-                            </div>
-                        </div>
-                        
-                        <div class="col-sm-12 col-md-12 col-lg-6">
-                        <div class="middle-col">
-                            <div class="group-middle">
-                                <h3 class="group-heading">Description:</h3>
-                                <p class="group-para">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui. Quisque nec mauris sit amet elit iaculis pretium sit amet quis magna. Aenean velit odio, elementum in tempus ut, vehicula eu diam. Pellentesque rhoncus aliquam mattis. Ut vulputate eros sed felis sodales nec vulputate justo hendrerit. Vivamus varius pretium ligula, a aliquam odio euismod sit amet. Quisque laoreet sem sit amet orci ullamcorper at ultricies metus viverra. Pellentesque arcu mauris, malesuada quis ornare accumsan, blandit sed diam.
-                                </p>
-                            </div>
-                        </div>
-                        </div>
-
-                    </div>
-
-                    <hr>
-
-                    <div class="course flexbox center">
-                        <div class="col-sm-12 col-md-12 col-lg-6">
-                            <div class="group-left-2">
-                                <img src="images/aiulogo.png" alt="AIU" class="col-pic">
-                                <h3 class="group-heading">University:</h3>
-                                <span class="group-span">American InterContinental University</span>
-
-                                <h3 class="group-heading">Course Name:</h3>
-                                <span class="group-span"><a href="https://www.aiuniv.edu/" target="_blank">Intrusion Detection and Prevention for Windows Security</a></span>
-
-                                <h3 class="group-heading">Date:</h3>
-                                <span class="group-span">2010 - 2012</span>
-
-                                <h3 class="group-heading">Credits:</h3>
-                                <span class="group-span">3</span>
-                            </div>
-                        </div>
-
-                        <div class="col-sm-12 col-md-12 col-lg-6">
-                        <div class="middle-col">
-                            <div class="group-middle">
-                                <h3 class="group-heading">Description:</h3>
-                                <p class="group-para">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui. Quisque nec mauris sit amet elit iaculis pretium sit amet quis magna. Aenean velit odio, elementum in tempus ut, vehicula eu diam. Pellentesque rhoncus aliquam mattis. Ut vulputate eros sed felis sodales nec vulputate justo hendrerit. Vivamus varius pretium ligula, a aliquam odio euismod sit amet. Quisque laoreet sem sit amet orci ullamcorper at ultricies metus viverra. Pellentesque arcu mauris, malesuada quis ornare accumsan, blandit sed diam.
-                                </p>
-                            </div>
-                        </div>
-                        </div>
-
-                    </div>
-
-                    <hr>
-
-                    <div class="course flexbox center">
-                        <div class="col-sm-12 col-md-12 col-lg-6">
-                            <div class="group-left-2">
-                                <img src="images/aiulogo.png" alt="AIU" class="col-pic">
-                                <h3 class="group-heading">University:</h3>
-                                <span class="group-span">American InterContinental University</span>
-
-                                <h3 class="group-heading">Course Name:</h3>
-                                <span class="group-span"><a href="https://www.aiuniv.edu/" target="_blank">Topics in Security Management</a></span>
-
-                                <h3 class="group-heading">Date:</h3>
-                                <span class="group-span">2010 - 2012</span>
-
-                                <h3 class="group-heading">Credits:</h3>
-                                <span class="group-span">3</span>
-
-                            </div>
-                        </div>
-                        
-                        <div class="col-sm-12 col-md-12 col-lg-6">
-                        <div class="middle-col">
-                            <div class="group-middle">
-                                <h3 class="group-heading">Description:</h3>
-                                <p class="group-para">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui. Quisque nec mauris sit amet elit iaculis pretium sit amet quis magna. Aenean velit odio, elementum in tempus ut, vehicula eu diam. Pellentesque rhoncus aliquam mattis. Ut vulputate eros sed felis sodales nec vulputate justo hendrerit. Vivamus varius pretium ligula, a aliquam odio euismod sit amet. Quisque laoreet sem sit amet orci ullamcorper at ultricies metus viverra. Pellentesque arcu mauris, malesuada quis ornare accumsan, blandit sed diam.
-                                </p>
-                            </div>
-                        </div>
-                        </div>
-
-                    </div>
-
-                    <hr>
-
-                    <div class="course flexbox center">
-                        <div class="col-sm-12 col-md-12 col-lg-6">
-                            <div class="group-left-2">
-                                <img src="images/aiulogo.png" alt="AIU" class="col-pic">
-                                <h3 class="group-heading">University:</h3>
-                                <span class="group-span">American InterContinental University</span>
-
-                                <h3 class="group-heading">Course Name:</h3>
-                                <span class="group-span"><a href="https://www.aiuniv.edu/" target="_blank">Defense in Depth</a></span>
-
-                                <h3 class="group-heading">Date:</h3>
-                                <span class="group-span">2010 - 2012</span>
-
-                                <h3 class="group-heading">Credits:</h3>
-                                <span class="group-span">3</span>
-
-                            </div>
-                        </div>
-                        
-                        <div class="col-sm-12 col-md-12 col-lg-6">
-                        <div class="middle-col">
-                            <div class="group-middle">
-                                <h3 class="group-heading">Description:</h3>
-                                <p class="group-para">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui. Quisque nec mauris sit amet elit iaculis pretium sit amet quis magna. Aenean velit odio, elementum in tempus ut, vehicula eu diam. Pellentesque rhoncus aliquam mattis. Ut vulputate eros sed felis sodales nec vulputate justo hendrerit. Vivamus varius pretium ligula, a aliquam odio euismod sit amet. Quisque laoreet sem sit amet orci ullamcorper at ultricies metus viverra. Pellentesque arcu mauris, malesuada quis ornare accumsan, blandit sed diam.
-                                </p>
-                            </div>
-                        </div>
-                        </div>
-
-                    </div>
-
-                    <hr>
-
-                    <div class="course flexbox center">
-                        <div class="col-sm-12 col-md-12 col-lg-6">
-                            <div class="group-left-2">
-                                <img src="images/aiulogo.png" alt="AIU" class="col-pic">
-                                <h3 class="group-heading">University:</h3>
-                                <span class="group-span">American InterContinental University</span>
-
-                                <h3 class="group-heading">Course Name:</h3>
-                                <span class="group-span"><a href="https://www.aiuniv.edu/" target="_blank">Introduction to Information Security</a></span>
-
-                                <h3 class="group-heading">Date:</h3>
-                                <span class="group-span">2010 - 2012</span>
-
-                                <h3 class="group-heading">Credits:</h3>
-                                <span class="group-span">3</span>
-
-                            </div>
-                        </div>
-                        
-                        <div class="col-sm-12 col-md-12 col-lg-6">
-                        <div class="middle-col">
-                            <div class="group-middle">
-                                <h3 class="group-heading">Description:</h3>
-                                <p class="group-para">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui. Quisque nec mauris sit amet elit iaculis pretium sit amet quis magna. Aenean velit odio, elementum in tempus ut, vehicula eu diam. Pellentesque rhoncus aliquam mattis. Ut vulputate eros sed felis sodales nec vulputate justo hendrerit. Vivamus varius pretium ligula, a aliquam odio euismod sit amet. Quisque laoreet sem sit amet orci ullamcorper at ultricies metus viverra. Pellentesque arcu mauris, malesuada quis ornare accumsan, blandit sed diam.
-                                </p>
-                            </div>
-                        </div>
-                        </div>
-                        
-                    </div>
-
-                </div>
-            </div>
             </div>
         </div>
     </section>
-    
 
-<footer class="footer-copyright">
-
-    <div class="col-sm-12 col-md-12 col-lg-12">
-        <p>
-            <i class="fa fa-copyright"></i> April Savoy, PHD&nbsp;&nbsp;
-            <a href="mailto:asavoy@iupui.edu" class="fa fa-envelope-square"></a>&nbsp;&nbsp;
-            <a href="https://www.linkedin.com/in/april-savoy-phd-5735212/" class="fa fa-linkedin-square"></a>&nbsp;&nbsp;
-            <a href="https://www.researchgate.net/profile/April_Savoy" class="footer-logo"><img src="images/logos/research-gate.png"></a>&nbsp;&nbsp;
-            <a href="https://www.regenstrief.org/person/april-savoy-phd/" class="footer-logo"><img src="images/logos/regenstrief-logo-square.png"></a>
-        </p>
-    </div>
-
-</footer>
-    
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="http://webdesign9.in/js/jquery.js"></script>
+    <script src="http://webdesign9.in/js/bootstrap.min.js"></script>
     <!-- JQuery -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <!-- Bootstrap tooltips -->
@@ -1219,33 +1219,7 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
     <!-- MDB core JavaScript -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.13/js/mdb.min.js"></script>
-        <script>
-        function myFunction() {
-              var x = document.getElementById("myDIV");
-              if (x.style.display === "none") {
-                  x.style.display = "block";
-              } else {
-                  x.style.display = "none";
-              }
-          }
-
-          function myFunction2() {
-              var x = document.getElementById("myDIV2");
-              if (x.style.display === "none") {
-                  x.style.display = "block";
-              } else {
-                  x.style.display = "none";
-              }
-          }
-        
-        function openNav() {
-            document.getElementById("mySidenav").style.width = "250px";
-        }
-
-        function closeNav() {
-            document.getElementById("mySidenav").style.width = "0";
-        }
-        </script>
+    <script src="js/index.js"></script>
 </body>
 
 </html>
