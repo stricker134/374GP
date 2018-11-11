@@ -1,8 +1,42 @@
+@media only screen and (max-width: 5000px) {
+
+    #learning-objectives {
+        margin-top: 30px;
+    }
+    
+    #bgimage {
+        height: 100vh;
+    }
+    
+    #body-left {
+        background-image: url(purdue-5.png);
+    }
+    
+    #about-me-padding {
+        
+    }
+    
+}
+
 @media only screen and (max-width: 2000px) {
 
     #learning-objectives {
         margin-top: 30px;
     }
+    
+    #bgimage {
+        height: 100vh;
+    }
+    
+    #body-left {
+        background-image: url(purdue-4.png);
+    }
+    
+    #about-me-padding {
+        padding-top: 100px;
+    }
+    
+    
     
 }
 
@@ -43,6 +77,10 @@
     #courses {
         width: 90%;
         margin: 0 auto;
+    }
+    
+    #bgimage {
+        height: 100vh;
     }
     
 }
@@ -86,6 +124,10 @@
         margin-top: 30px;
     }
     
+    #bgimage {
+        height: 100vh;
+    }
+    
 }
 
 @media only screen and (max-width: 1400px) {
@@ -125,6 +167,19 @@
     
     #learning-objectives {
         margin-top: 30px;
+    }
+    
+    #body-right {
+        width: 77%; 
+    }
+
+    #body-left {
+        width: 23%;
+
+    }
+    
+    #bgimage {
+        height: 100vh;
     }
     
 }
@@ -179,6 +234,19 @@
     
     #learning-objectives {
         margin-top: 30px;
+    }
+    
+    #body-right {
+        width: 77%; 
+    }
+
+    #body-left {
+        width: 23%;
+
+    }
+    
+    #bgimage {
+        height: 100vh;
     }
     
 }
@@ -237,6 +305,19 @@
     
     #learning-objectives {
         margin-top: 30px;
+    }
+    
+    #body-right {
+        width: 71%; 
+    }
+
+    #body-left {
+        width: 29%;
+
+    }
+    
+    #bgimage {
+        height: 100vh;
     }
     
 }
@@ -382,6 +463,7 @@
       top: 705px;
       left:  50%;
         text-align: justify;
+      -webkit-transform: translate(-50%, -50%);
       transform: translate(-50%, -50%);
       color: #2B3A42;
     }
@@ -395,8 +477,8 @@
         margin-top: 10px;
     }
     
-    .bgimage {
-        height: 900px;
+    #bgimage {
+        height: 1100px;
     }
     
     .card-body-broken {
@@ -409,6 +491,32 @@
     
     #learning-objectives {
         margin-top: 40px;
+    }
+    
+    #body-right {
+        width: 100%; 
+        max-height: 100%;
+        overflow: hidden;
+        border: 1px solid #ccc;
+        position: relative; 
+        top: 0px;
+        right: 0px;
+    }
+
+    #container2 {
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+    }
+
+    #body-left {
+        width: 0%;
+        float: left;
+        overflow: hidden;
+        background-image: url(purdue-1.png);
+        background-size: cover;
+       background-repeat:no-repeat;
+
     }
     
 }
@@ -554,6 +662,7 @@
       top: 705px;
       left: 50%;
         text-align: justify;
+      -webkit-transform: translate(-50%, -50%);
       transform: translate(-50%, -50%);
       color: #2B3A42;
     }
@@ -567,8 +676,8 @@
         margin-top: 10px;
     }
     
-    .bgimage {
-        height: 900px;
+    #bgimage {
+        height: 1050px;
     }
     
     h1 {
@@ -597,6 +706,32 @@
     
     #learning-objectives {
         margin-top: 40px;
+    }
+    
+    #body-right {
+        width: 100%; 
+        max-height: 100%;
+        overflow: hidden;
+        border: 1px solid #ccc;
+        position: relative; 
+        top: 0px;
+        right: 0px;
+    }
+
+    #container2 {
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+    }
+
+    #body-left {
+        width: 0%;
+        float: left;
+        overflow: hidden;
+        background-image: url(purdue-1.png);
+        background-size: cover;
+       background-repeat:no-repeat;
+
     }
     
 }
@@ -745,8 +880,8 @@
         margin-top: 10px;
     }
     
-    .bgimage {
-        height: 900px;
+    #bgimage {
+        height: 1050px;
     }
     
     .text h1 {
@@ -764,6 +899,7 @@
       top: 735px;
       left: 48%;
         text-align: justify;
+      -webkit-transform: translate(-50%, -50%);
       transform: translate(-50%, -50%);
       color: #2B3A42;
     }
@@ -861,16 +997,44 @@
         margin-top: 40px;
     }
     
+    #body-right {
+        width: 100%; 
+        max-height: 100%;
+        overflow: hidden;
+        border: 1px solid #ccc;
+        position: relative; 
+        top: 0px;
+        right: 0px;
+    }
+
+    #container2 {
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+    }
+
+    #body-left {
+        width: 0%;
+        float: left;
+        overflow: hidden;
+        background-image: url(purdue-1.png);
+        background-size: cover;
+       background-repeat:no-repeat;
+
+    }
+    
 }
 
 @media only screen and (max-width: 480px) {
     
-    .bgimage {
-        height: 950px;
+    #bgimage {
+        height: 1050px;
     }
     
     .text3 {
-        margin-top: 20px;
+        margin-top: 0px;
+        top: 250px;
+        left: 50%;
     }
     
     .text h1 {
@@ -888,6 +1052,7 @@
       top: 735px;
       left: 47%;
         text-align: justify;
+      -webkit-transform: translate(-50%, -50%);
       transform: translate(-50%, -50%);
       color: #2B3A42;
     }
@@ -1127,13 +1292,43 @@
     #learning-objectives {
         margin-top: 40px;
     }
+    
+    #body-right {
+        width: 100%; 
+        max-height: 100%;
+        overflow: hidden;
+        border: 1px solid #ccc;
+        position: relative; 
+        top: 0px;
+        right: 0px;
+    }
+
+    #container2 {
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+    }
+
+    #body-left {
+        width: 0%;
+        float: left;
+        overflow: hidden;
+        background-image: url(purdue-1.png);
+        background-size: cover;
+       background-repeat:no-repeat;
+
+    }
 
 }
 
 @media only screen and (max-width: 360px) {
     
-    .bgimage {
-        height: 1000px;
+    header {
+        width: 100%;
+    }
+    
+    #bgimage {
+        height: 1100px;
     }
     
     .text3 {
@@ -1156,6 +1351,7 @@
       top: 775px;
       left: 47%;
         text-align: justify;
+      -webkit-transform: translate(-50%, -50%);
       transform: translate(-50%, -50%);
       color: #2B3A42;
     }
@@ -1368,6 +1564,32 @@
     
     #learning-objectives {
         margin-top: 40px;
+    }
+    
+    #body-right {
+        width: 100%; 
+        max-height: 100%;
+        overflow: hidden;
+        border: 1px solid #ccc;
+        position: relative; 
+        top: 0px;
+        right: 0px;
+    }
+
+    #container2 {
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+    }
+
+    #body-left {
+        width: 0%;
+        float: left;
+        overflow: hidden;
+        background-image: url(purdue-1.png);
+        background-size: cover;
+       background-repeat:no-repeat;
+
     }
     
 }

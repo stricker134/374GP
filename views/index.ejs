@@ -11,7 +11,10 @@
     <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css'>
 </head>
 
-<header>
+
+<body>
+    
+    <header id="main-header">
     <section class="bgimage" id="bgimage">
 
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="home-navbar" style="z-index: 1000;">
@@ -24,31 +27,25 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item">
-                        <a class="nav-item nav-link active" style="color: white;" href="#bgimage">About</a>
+                        <a class="nav-item nav-link active" style="color: white;" href="index">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-item nav-link active" style="color: white;" href="#experience">Experience</a>
+                        <a class="nav-item nav-link active" style="color: white;" href="publications">Publications</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-item nav-link active" style="color: white;" href="#grants">Grants</a>
+                        <a class="nav-item nav-link active" style="color: white;" href="contact">Contact</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-item nav-link active" style="color: white;" href="#scholarships">Scholarships</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-item nav-link active" style="color: white;" href="#courses">Courses</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-item nav-link active" style="color: white;" href="#bgimage"><i class="fa fa-arrow-circle-up"></i></a>
+                        <a class="nav-item nav-link active" style="color: white;" href="blog">Blog</a>
                     </li>
                 </ul>
                 <form class="form-inline my-2 my-lg-0">
-                    <a href="images/savoyresume.pdf" class="btn btn-outline-light" target="_blank">Download My Resume</a>
+                    <a href="images/savoyresume.pdf" class="btn btn-outline-light" target="_blank">Download My Resume / CV</a>
                 </form>
             </div>
         </nav>
 
-        <div class="container-fluid">
+        <div class="container-fluid" id="about-me-padding">
             <div class="row">
                 <div class="container col-sm-12 col-md-12 col-lg-6">
                     <div class="text3" style="color: #252C3F;">
@@ -80,13 +77,19 @@
 
         <div id="mySidenav" class="sidenav" style="z-index: 10000;">
             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-            <a href="index">Home</a>
-            <a href="publications">Publications</a>
-            <a href="contact">Contact</a>
-            <a href="blog">Blog</a>
+            <a href="#bgimage">About</a>
+            <a href="#about-me-header">Education</a>
+            <a href="#experience">Experience</a>
+            <a href="#grants">Grants</a>
+            <a href="#scholarships">Scholarships</a>
+            <a href="#courses-1">Current Courses</a>
+            <a href="#courses-2">Previous Courses</a>
+            <a href="#research-interests">Research Interests</a>
+            <a href="#opportunities">Opportunities</a>
+            <a class="nav-item nav-link active" href="#bgimage"><i class="fa fa-arrow-circle-up"></i> Back to top</a>
         </div>
 
-        <span class="menu-toggle-2" style="font-size:20px; cursor:pointer; z-index: 900; background: white; opacity: 0.7; border: 2px solid black; border-radius: 25px; padding-left: 10px; padding-right: 10px; padding-bottom: 4px;" onclick="openNav()">&#9776;&nbsp;Menu</span>
+        <span class="menu-toggle-2" style="font-size:20px; cursor:pointer; z-index: 900; background: white; opacity: 0.7; border: 2px solid black; border-radius: 25px; padding-left: 10px; padding-right: 10px; padding-bottom: 4px;" onclick="openNav()">&#9776;&nbsp;Scroll</span>
 
     </section>
 
@@ -97,16 +100,21 @@
             <a href="https://www.researchgate.net/profile/April_Savoy" class="footer-logo" target="_blank"><img src="images/logos/research-gate.png"></a>&nbsp;&nbsp;
             <a href="https://www.regenstrief.org/person/april-savoy-phd/" class="footer-logo" target="_blank"><img src="images/logos/regenstrief-logo-square.png"></a>
 
-            <div id="copyright-footer"><i class="fa fa-copyright"></i> April Savoy, PHD</div>
+            <!--<div id="copyright-footer"><i class="fa fa-copyright"></i> April Savoy, PHD</div>-->
         </div>
     </section>
 </header>
-
-<body>
+    
+    <div id="body-left">
+        
+    </div>
+    
+    <div id="body-right">
+    <div id="container2">
     <section style="background:#F9F9F9;" id="about">
         <div class="container">
             <br>
-
+            <br>
             <h1 id="about-me-header">Education</h1>
             <svg width="400" height="10">
                 <rect width="100" height="25" style="fill:rgb(217,162,137);stroke-width:0;stroke:rgb(0,0,0); " />
@@ -136,121 +144,128 @@
             </div>
             <br>
             <br>
+            <br>
         </div>
 
     </section>
 
-    <section style="background:#F0EBDF; padding: 0; margin: 0; z-index: 1;" id="about">
+    <!--<section style="background:#F0EBDF; padding: 0; margin: 0; z-index: 1;" id="about">
 
         <div class="col-sm-12 col-md-12 col-lg-12" style="padding:0; margin: 0; z-index: 1;">
             <p id="research-grants-1">Work Experience</p>
             <img src="images/friends.jpg" width="100%" style="z-index: 1;">
         </div>
 
-    </section>
+    </section>-->
 
     <section style="background: #F1F0FF; padding-left: 20px; padding-right: 20px; height: 100%;" id="experience">
         <br>
         <br>
-        <div class="container" id="experience-container">
-            <div class="row">
-                <div class="col-sm-12 col-md-12 col-lg-12" id="experience-title">
-                    <h1 class="title-head inline">Experience</h1>
-                    <br>
+<div class="container" id="research-container">
+            <br>
+            <br>
+            <div class="row" id="research-titles">
+                <div class="col-sm-12">
+                    <h1>Experience</h1>
                     <svg width="300" height="10">
-                        <rect width="100" height="25" style="fill:rgb(195, 195, 229)
-;stroke-width:0;stroke:rgb(0,0,0); " />
+                        <rect width="100" height="25" style="fill:rgb(195, 195, 229);stroke-width:0;stroke:rgb(0,0,0); " />
                     </svg>
                     <br>
                     <br>
                     <br>
                 </div>
-
-                <div class="title-bar"></div>
-                <div class='row'>
-                    <div class='col-sm-12 col-md-2 col-lg-2 exp-img'>
-                        <img src='images/iupui.png' class='image' width="100px;">
-                    </div>
-
-                    <div class='col-sm-12 col-md-10 col-lg-10 exp-content'>
-                        <h4>Assistant Professor, 2018 - Present</h4>
-                        <p>Indiana University Purdue University Indianapolis School of Engineering and Technology</p>
-                        <br>
-                        <p>You could list some of the duties from the experience here to act as filler space.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                    </div>
+                <div class="align-list">
+                    <div class="media">
+                        <div class="media-left media-middle">
+                            <img src="images/iupui.png" class="media-object" style="width:100px">
+                        </div>
+                        <div class="media-body">
+                            <div class="align-list">
+                                <h4 class="media-heading">Assistant Professor, 2018 - Present</h4>
+                                <p>School of Engineering and Technology<br>Indiana University Purdue University Indianapolis<br>Indianapolis, Indiana</p>
+                            </div>
+                        </div>
+                    </div><br><br>
+                    
+                    <div class="media">
+                        <div class="media-left media-middle">
+                            <img src="images/VA-Seal.png" class="media-object" style="width:100px">
+                        </div>
+                        <div class="media-body">
+                            <div class="align-list">
+                                <h4 class="media-heading">Director of Human Computer Interaction and Simulation Lab, 2014 - Present</h4>
+                                <p>Richard L. Roudebush Veterans Affairs Medical Center for Health Information and Communication<br>Indianapolis, Indiana </p>
+                            </div>
+                        </div>
+                    </div><br><br>
+                    
+                    <div class="media">
+                        <div class="media-left media-middle">
+                            <img src="images/iu-logo-2.png" class="media-object" style="width:100px">
+                        </div>
+                        <div class="media-body">
+                            <div class="align-list">
+                                <h4 class="media-heading">Assistant Professor and Director of Informatics, 2012 - 2018</h4>
+                                <p>Department of Informatics <br>Indiana University East<br>Richmond, Indiana</p>
+                            </div>
+                        </div>
+                    </div><br><br>
+                    
+                    <div class="media">
+                        <div class="media-left media-middle">
+                            <img src="images/sa-tech-4.png" class="media-object" style="width:100px">
+                        </div>
+                        <div class="media-body">
+                            <div class="align-list">
+                                <h4 class="media-heading">Program Manager - Research Associate, 2008 - 2012</h4>
+                                <p>SA Technologies Inc.<br>Santa Clara, California</p>
+                            </div>
+                        </div>
+                    </div><br><br>
+                    
+                    <div class="media">
+                        <div class="media-left media-middle">
+                            <img src="images/aiu-logo.png" class="media-object" style="width:100px">
+                        </div>
+                        <div class="media-body">
+                            <div class="align-list">
+                                <h4 class="media-heading">Adjunct Professor, 2010 - 2012</h4>
+                                <p>American InterContinental University<br>Schaumburg, Illinois</p>
+                            </div>
+                        </div>
+                    </div><br><br>
+                    
+                    <div class="media">
+                        <div class="media-left media-middle">
+                            <img src="images/purdue-boilermakers-logo.png" class="media-object" style="width:100px">
+                        </div>
+                        <div class="media-body">
+                            <div class="align-list">
+                                <h4 class="media-heading">Graduate Research Assistant, 2003 - 2004</h4>
+                                <p>Department of Computer Science<br>Purdue University <br>West Lafayette, Indiana</p>
+                            </div>
+                        </div>
+                    </div><br>
+                    
                 </div>
-
-                <div class='row'>
-                    <div class='col-sm-12 col-md-2 col-lg-2 exp-img'>
-                        <img src='images/VA-Seal.png' class='image' width="100px;">
-                    </div>
-                    <div class='col-sm-12 col-md-10 col-lg-10 exp-content'>
-                        <h4>Director of Human Computer Interaction and Simulation Lab, 2014 - Present</h4>
-                        <p>Richard L. Roudebush Veterans Affairs Medical Center for Health Information and Communication</p>
-                        <br>
-                        <p>You could list some of the duties from the experience here to act as filler space.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                    </div>
-                </div>
-                <div class='row'>
-                    <div class='col-sm-12 col-md-2 col-lg-2 exp-img'>
-                        <img src='images/Indiana_Hoosiers_logo.png' class='image' width="100px;">
-                    </div>
-                    <div class='col-sm-12 col-md-10 col-lg-10 exp-content'>
-                        <h4>Assistant Professor and Director of Informatics, 2012 - 2018</h4>
-                        <p>Indiana University East</p>
-                        <br>
-                        <p>You could list some of the duties from the experience here to act as filler space.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                    </div>
-                </div>
-                <div class='row'>
-                    <div class='col-sm-12 col-md-2 col-lg-2 exp-img'>
-                        <img src='images/sa-tech.png' class='image' width="100px;">
-                    </div>
-                    <div class='col-sm-12 col-md-10 col-lg-10 exp-content'>
-                        <h4>Program Manager - Research Associate, 2008 - 2012</h4>
-                        <p>SA Technologies Inc.</p>
-                        <br>
-                        <p>You could list some of the duties from the experience here to act as filler space.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                    </div>
-                </div>
-                <div class='row'>
-                    <div class='col-sm-12 col-md-2 col-lg-2 exp-img'>
-                        <img src='images/aiu-logo.png' class='image' width="100px;">
-                    </div>
-                    <div class='col-sm-12 col-md-10 col-lg-10 exp-content'>
-                        <h4>Adjunct Professor, 2010 - 2012</h4>
-                        <p>American InterContinental University</p>
-                        <br>
-                        <p>You could list some of the duties from the experience here to act as filler space.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                    </div>
-                </div>
-                <div class='row'>
-                    <div class='col-sm-12 col-md-2 col-lg-2 exp-img'>
-                        <img src='images/purdue-boilermakers-logo.png' class='image' width="100px;">
-                    </div>
-                    <div class='col-sm-12 col-md-10 col-lg-10 exp-content'>
-                        <h4>Graduate Research Assistant, 2003 - 2004</h4>
-                        <p>Purdue University, Department of Computer Science</p>
-                        <br>
-                        <p>You could list some of the duties from the experience here to act as filler space.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                    </div>
-                </div>
+                <br>
                 <br>
             </div>
         </div>
     </section>
 
-    <section style="background:#F0EBDF; padding: 0; margin: 0; z-index: 1;" id="about">
+    <!--<section style="background:#F0EBDF; padding: 0; margin: 0; z-index: 1;" id="about">
 
         <div class="col-sm-12 col-md-12 col-lg-12" style="padding:0; margin: 0; z-index: 1;">
             <p id="research-grants-2">Research &amp; Grants</p>
             <img src="images/research-grants-2.jpg" width="100%" style="z-index: 1;">
         </div>
 
-    </section>
+    </section>-->
 
     <section style="background: #F1F0FF;" id="grants">
         <div class="container" id="research-container">
+            <br>
             <br>
             <br>
             <div class="row" id="research-titles">
@@ -484,7 +499,7 @@
 
                     <div class="media">
                         <div class="media-left media-middle">
-                            <img src="images/aaas-logo.jpg" class="media-object" style="width:60px">
+                            <img src="images/aaas-logo-2.png" class="media-object" style="width:60px">
                         </div>
                         <div class="media-body">
                             <div class="align-list">
@@ -548,7 +563,36 @@
         <br>
     </section>
 
-    <section style="background:#F0EBDF; padding: 0; margin: 0; z-index: 1;" id="about">
+    <section style="background: #C3C3E5" id="service">
+        <br>
+        <br>
+        <div class="container" id="service-container">
+            <div class="row" id="service-titles">
+                <div class="col-sm-12">
+                    <h1>Community Service Organizations</h1>
+                    <svg width="400" height="10">
+                        <rect width="100" height="25" style="fill:rgb(217,162,137);stroke-width:0;stroke:rgb(0,0,0); " />
+                    </svg>
+                    <br>
+                    <br>
+                    <br>
+
+                    <div class="media">
+                        <div class="media-left media-middle">
+                            <img src="images/deltasigma.jpg" class="media-object" style="width:60px">
+                        </div>
+                        <div class="media-body">
+                            <div class="align-list">
+                                <h4 class="media-heading">Delta Sigma Theta Sorority, Inc</h4>
+                                <p>Private, non-profit organization whose members provide voluntary services and
+                                    programs to diverse communities to promote human welfare.</p>
+                            </div>
+                        </div>
+                    </div><br>
+        <br>
+    </section>
+
+    <!--<section style="background:#F0EBDF; padding: 0; margin: 0; z-index: 1;" id="about">
 
         <div class="col-sm-12 col-md-12 col-lg-12" style="padding:0; margin: 0; z-index: 1;">
             <p id="research-grants-3">Courses</p>
@@ -556,9 +600,9 @@
         </div>
 
 
-    </section>
+    </section>-->
 
-    <section style="background:#F9F9F9;">
+    <section style="background:#F9F9F9;" id="courses-1">
         <br><br>
         <div class="container" id="courses">
 
@@ -579,7 +623,7 @@
                 </div>
 
 
-                <div class="" id="myDIV" style="display: none;">
+                <div class="" id="myDIV">
                     <div class="course flexbox center">
 
                         <div class="col-sm-12 col-md-12 col-lg-6">
@@ -639,12 +683,12 @@
 
                         <div class="col-sm-12 col-md-12 col-lg-6">
                             <div class="group-left">
-                                <img src="images/iupui.png" alt="IUPUI" class="col-pic">
+                                <img src="images/iu-east-1.png" alt="IU EAST" class="col-pic" style="width: 100%;">
                                 <h3 class="group-heading">University:</h3>
-                                <span class="group-span">Indiana University-Purdue University Indianapolis</span>
+                                <span class="group-span">Indiana University East</span>
 
                                 <h3 class="group-heading">Course Name:</h3>
-                                <span class="group-span"><a href="https://soic.iupui.edu/courses/info-i101/" target="_blank">INFO-I101 Introduction to Informatics</a></span>
+                                <span class="group-span"><a href="https://soic.iupui.edu/courses/info-i101/" target="_blank">INFO-I 101 Introduction to Informatics</a></span>
 
                                 <h3 class="group-heading">Date:</h3>
                                 <span class="group-span">2012 - Present</span>
@@ -696,12 +740,12 @@
 
                         <div class="col-sm-12 col-md-12 col-lg-6">
                             <div class="group-left">
-                                <img src="images/iupui.png" alt="IUPUI" class="col-pic">
+                                <img src="images/iu-east-1.png" alt="IU EAST" class="col-pic" style="width: 100%;">
                                 <h3 class="group-heading">University:</h3>
-                                <span class="group-span">Indiana University-Purdue University Indianapolis</span>
+                                <span class="group-span">Indiana University East</span>
 
                                 <h3 class="group-heading">Course Name:</h3>
-                                <span class="group-span"><a href="https://soic.iupui.edu/courses/info-i202/" target="_blank">INFO-I202 Social Informatics</a></span>
+                                <span class="group-span"><a href="https://soic.iupui.edu/courses/info-i202/" target="_blank">INFO-I 202 Social Informatics</a></span>
 
                                 <h3 class="group-heading">Date:</h3>
                                 <span class="group-span">2012 - Present</span>
@@ -749,12 +793,12 @@
 
                         <div class="col-sm-12 col-md-12 col-lg-6">
                             <div class="group-left">
-                                <img src="images/iupui.png" alt="IUPUI" class="col-pic">
+                                <img src="images/iu-east-1.png" alt="IU EAST" class="col-pic" style="width: 100%;">
                                 <h3 class="group-heading">University:</h3>
-                                <span class="group-span">Indiana University-Purdue University Indianapolis</span>
+                                <span class="group-span">Indiana University East</span>
 
                                 <h3 class="group-heading">Course Name:</h3>
-                                <span class="group-span"><a href="https://soic.iupui.edu/courses/info-i300/" target="_blank">INFO-I300 Human Computer Interaction/ Interface Design</a></span>
+                                <span class="group-span"><a href="https://soic.iupui.edu/courses/info-i300/" target="_blank">INFO-I 300 Human Computer Interaction/ Interface Design</a></span>
 
                                 <h3 class="group-heading">Date:</h3>
                                 <span class="group-span">2012 - Present</span>
@@ -809,9 +853,9 @@
 
                         <div class="col-sm-12 col-md-12 col-lg-6">
                             <div class="group-left">
-                                <img src="images/iupui.png" alt="IUPUI" class="col-pic">
+                                <img src="images/iu-east-1.png" alt="IU EAST" class="col-pic" style="width: 100%;">
                                 <h3 class="group-heading">University:</h3>
-                                <span class="group-span">Indiana University-Purdue University Indianapolis</span>
+                                <span class="group-span">Indiana University East</span>
 
                                 <h3 class="group-heading">Course Name:</h3>
                                 <span class="group-span"><a href="https://soic.iupui.edu/courses/info-i400/" target="_blank">INFO-I400 Informatics Special Topics</a></span>
@@ -876,9 +920,9 @@
                     <div class="course flexbox center">
                         <div class="col-sm-12 col-md-12 col-lg-6">
                             <div class="group-left">
-                                <img src="images/iupui.png" alt="IUPUI" class="col-pic">
+                                <img src="images/iu-east-1.png" alt="IU EAST" class="col-pic" style="width: 100%;">
                                 <h3 class="group-heading">University:</h3>
-                                <span class="group-span">Indiana University-Purdue University Indianapolis</span>
+                                <span class="group-span">Indiana University East</span>
 
                                 <h3 class="group-heading">Course Name:</h3>
                                 <span class="group-span"><a href="https://soic.iupui.edu/courses/info-i491/" target="_blank">INFO-I491 Capstone Project/Internship</a></span>
@@ -911,9 +955,9 @@
                     <div class="course flexbox center">
                         <div class="col-sm-12 col-md-12 col-lg-6">
                             <div class="group-left">
-                                <img src="images/iupui.png" alt="IUPUI" class="col-pic">
+                                <img src="images/iu-east-1.png" alt="IU EAST" class="col-pic" style="width: 100%;">
                                 <h3 class="group-heading">University:</h3>
-                                <span class="group-span">Indiana University-Purdue University Indianapolis</span>
+                                <span class="group-span">Indiana University East</span>
 
                                 <h3 class="group-heading">Course Name:</h3>
                                 <span class="group-span"><a href="https://soic.iupui.edu/courses/info-i492/" target="_blank">INFO-I492 Senior Thesis</a></span>
@@ -947,7 +991,7 @@
 
     </section>
 
-    <section style="background:#F9F9F9;">
+    <section style="background:#F9F9F9;" id="courses-2">
         <br>
         <br>
         <div class="container" id="courses">
@@ -967,7 +1011,7 @@
                         <div class="title-bar"></div>
                     </div>
 
-                    <div id="myDIV2" style="display: none;">
+                    <div id="myDIV2">
                         <div class="course flexbox center">
                             <div class="col-sm-12 col-md-12 col-lg-6">
                                 <div class="group-left">
@@ -1207,6 +1251,207 @@
             </div>
         </div>
     </section>
+        
+        <section style="background: #F1F0FF; padding-left: 20px; padding-right: 20px; height: 100%;" id="research-interests">
+        <br>
+        <br>
+        <div class="container" id="experience-container">
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-12" id="experience-title">
+                    <h1 class="title-head inline">Research Interests</h1>
+                    <br>
+                    <svg width="300" height="10">
+                        <rect width="100" height="25" style="fill:rgb(195, 195, 229)
+;stroke-width:0;stroke:rgb(0,0,0); " />
+                    </svg>
+                    <br>
+                    <br>
+                    <br>
+                </div>
+
+                <div class="title-bar"></div>
+                <div class='row'>
+                    <div class='col-sm-12 col-md-2 col-lg-2 exp-img'>
+                        <img src='images/beaker-1.png' class='image' width="100px;">
+                    </div>
+
+                    <div class='col-sm-12 col-md-10 col-lg-10 exp-content'>
+                        <p>Dr. Savoy has innovations in e-commerce and e-learning. However, Dr. Savoy refused to split her identities when she was young. Dr. Savoy is a Health Research Scientist and Director of the Human-Computer Interaction & Simulation Lab at the Richard L. Roudebush Veteran Affairs Medical Center in Indianapolis. Her research focuses on the implementation of user-centered design to develop, evaluate, and integrate health information technologies that will increase efficiency of clinicians’ workflow, enhance care coordination, and improve the quality of healthcare delivery. Also, April Savoy serves as a Regenstrief Investigator alongside her concurrent duties in the VA Roudebush Human Computer Interaction Lab. </p>
+                
+                        <p>However, her work has innovated the use of smart device for improved workflows, mobile computing in the primary care setting, and the use of Health Information Exchange( to share health data for different clinicians) in making sure that care coordination is executed well. Afterward, Dr. Savoy assisted in the enhancement of course delivery and evaluation with the OnCourse e-learning system, which was implemented across over 100,000 students. However, Dr. Savoy actively mentors the next generation of leaders in STEM as a member of DST. Finally, she participated on many events such as: Applied Human Factors and Ergonomics International Advisory Board, the Human-Computer Interaction in Business International Advisory Board , and serves as Emerging Researchers National Conference in STEM Judge.</p>
+                
+                    </div>
+                </div>
+                
+                <br>
+            </div>
+        </div>
+    </section>
+        
+        <section style="background: #F1F0FF; padding-left: 20px; padding-right: 20px; height: 100%;" id="opportunities">
+        <br>
+        <br>
+        <div class="container" id="experience-container">
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-12" id="experience-title">
+                    <h1 class="title-head inline">Student Opportunities</h1>
+                    <br>
+                    <svg width="300" height="10">
+                        <rect width="100" height="25" style="fill:rgb(195, 195, 229)
+;stroke-width:0;stroke:rgb(0,0,0); " />
+                    </svg>
+                    <br>
+                    <br>
+                    <br>
+                </div>
+
+                <div class="title-bar"></div>
+                <div class='row'>
+                    <div class='col-sm-12 col-md-2 col-lg-2 exp-img'>
+                        <img src='images/indiana-intern.png' class='image' width="100px;">
+                    </div>
+
+                    <div class='col-sm-12 col-md-10 col-lg-10 exp-content'>
+                        <h4>Indiana Intern</h4>
+                        <br>
+                        <p>IndianaIntern.Net (IIN) has internship postings from throughout the state of Indiana, some of which are eligible for the EARN Indiana program (a state work-study program). Thanks to a collaboration with IIN, these postings now appear in the IUPUI jobs board (JagJobs)</p>
+                    </div>
+                </div>
+
+                <div class='row'>
+                    <div class='col-sm-12 col-md-2 col-lg-2 exp-img'>
+                        <img src='images/iupui.png' class='image' width="100px;">
+                    </div>
+                    <div class='col-sm-12 col-md-10 col-lg-10 exp-content'>
+                        <h4>Life-Health Sciences Internship</h4>
+                        <br>
+                        <p> The <a href="https://lhsi.iupui.edu/">Life-Health Sciences Internship Program</a> connects IUPUI life and health sciences undergraduates with research and professional experience internships on and near campus. Interns explore and refine career and academic goals, gain valuable skills, and grow as professionals under the supervision of faculty and staff in IUPUI graduate and professional programs. Internships are paid and last from the end of August until the beginning of May.
+</p>
+                    </div>
+                </div>
+                <div class='row'>
+                    <div class='col-sm-12 col-md-2 col-lg-2 exp-img'>
+                        <img src='images/appirio-1.png' class='image' width="100">
+                    </div>
+                    <div class='col-sm-12 col-md-10 col-lg-10 exp-content'>
+                        <h4>Appirio</h4>
+                        <br>
+                        <p>Launch your career in technical consulting. Learn about next-generation worker and customer experience. Partern up with Salesforce, get results customers will love, and create a better experience for worker & customer experience.  More at <a href="https://appirio.com/careers">Appirio</a>.</p>
+                    </div>
+                </div>
+                <div class='row'>
+                    <div class='col-sm-12 col-md-2 col-lg-2 exp-img'>
+                        <img src='images/IEEE.png' class='image' style="padding-left: 10px; width: 100%;">
+                    </div>
+                    <div class='col-sm-12 col-md-10 col-lg-10 exp-content'>
+                        <h4>IEEE</h4>
+                        <br>
+                        <p> IEEE is the world's largest technical professional organization for the advancement of technology. Work on security updates, the IEEE spectrum, and IEEE transmitters. Gain an insight to the world of technology by visiting <a href="https://www.ieee.org/about/volunteers/index.html">IEEE</a>.</p>
+                    </div>
+                </div>
+                
+                <br>
+            </div>
+        </div>
+    </section>
+        
+        <section style="background: #F1F0FF; padding-left: 20px; padding-right: 20px; height: 100%;">
+        <br>
+        <br>
+        <div class="container" id="experience-container">
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-12" id="experience-title">
+                    <h1 class="title-head inline">Paid Opportunities</h1>
+                    <br>
+                    <svg width="300" height="10">
+                        <rect width="100" height="25" style="fill:rgb(195, 195, 229)
+;stroke-width:0;stroke:rgb(0,0,0); " />
+                    </svg>
+                    <br>
+                    <br>
+                    <br>
+                </div>
+
+                <div class="title-bar"></div>
+                <div class='row'>
+                    <div class='col-sm-12 col-md-2 col-lg-2 exp-img'>
+                        <img src='images/nsf.png' class='image' width="100px;">
+                    </div>
+
+                    <div class='col-sm-12 col-md-10 col-lg-10 exp-content'>
+                        <h4>The National Science Foundation</h4>
+                        <br>
+                        <p>Graduate Research Fellowship Program (GRFP)is an important but, from our experience, an often overlooked funding opportunity for the Computer and Information Science and Engineering (CISE) community.The program recognizes and supports outstanding graduate students in NSF-supported areas who are pursing full-time, research-based master’s and doctoral degrees at accredited U.S. institutions. As the deadline of October 23, 2018, approaches for applicants who fall within CISE fields of study, we want to be sure you all – as members of our community – are aware of this opportunity for your undergraduate seniors and first-year graduate students.</p>
+                
+                        <p>GRFP is NSF’s oldest program, dating to the Foundation’s first fully funded year of 1952. Since then, GRFP has supported over 50,000 US citizens, nationals, and permanent residents to pursue advanced degrees in science and engineering.  Among its alumni are over 40 Nobel laureates, over 450 members of the National Academies of Sciences, Engineering, and Medicine, thousands of science and engineering faculty, and many leaders in industry, government, and the non-profit sector.</p>
+                
+                        <p>Last year, GRFP awards were offered to 2,000 of the more than 12,000 applicants.  Some institutions offer support through application development programs (e.g., the University of Arizona), essay insights (e.g., the University of Missouri), workshops (e.g., the University of Utah) and other resources (e.g., the University of Iowa) – and others even require incoming graduate students to write GRFP proposals.</p>
+                    </div>
+                </div>
+                
+                <br>
+            </div>
+        </div>
+    </section>
+        
+        <section style="background: #F1F0FF; padding-left: 20px; padding-right: 20px; height: 100%;">
+        <br>
+<div class="container" id="research-container">
+            <br>
+            <br>
+            <div class="row" id="research-titles">
+                <div class="col-sm-12">
+                    <h1>Other Opportunities</h1>
+                    <svg width="300" height="10">
+                        <rect width="100" height="25" style="fill:rgb(195, 195, 229);stroke-width:0;stroke:rgb(0,0,0); " />
+                    </svg>
+                    <br>
+                    <br>
+                    <br>
+                </div>
+                <div class="align-list">
+                    <div class="media">
+                        <div class="media-left media-middle">
+                            <img src="images/github.png" class="media-object" style="width:60px">
+                        </div>
+                        <div class="media-body">
+                            <div class="align-list">
+                                <h4 class="media-heading"><a href="https://blog.github.com/2018-09-12-commit-to-your-career-as-a-github-intern/?utm_source=newsletter&utm_medium=email&utm_campaign=teacher-nwsletter-092518">Internship at GitHub</a></h4>
+                                <p>Students can spend their summer at GitHub HQ, work on real projects, and learn from experienced Hubbers.</p>
+                            </div>
+                        </div>
+                    </div><br>
+                    <div class="media">
+                        <div class="media-left media-middle">
+                            <img src="images/stem.png" class="media-object" style="width:60px">
+                        </div>
+                        <div class="media-body">
+                            <div class="align-list">
+                                <h4 class="media-heading"><a href="http://www.engr.iupui.edu/sites/careerservices/connection/information-for-students.php">STEM Internship</a></h4>
+                                <p>Learn about different STEM internships that you can apply for at IUPUI.</p>
+                            </div>
+                        </div>
+                    </div><br>
+                    <div class="media">
+                        <div class="media-left media-middle">
+                            <img src="images/abroad.png" class="media-object" style="width:60px">
+                        </div>
+                        <div class="media-body">
+                            <div class="align-list">
+                                <h4 class="media-heading"><a href="http://engr.iupui.edu/departments/cigt/about/globalit/india/index.php">Study Abroad in India</a></h4>
+                                <p>Applications are open for the Global IT Management Spring Break trip to India!</p>
+                            </div>
+                        </div>
+                    </div><br>         
+                </div>
+                <br>
+                <br>
+            </div>
+        </div>
+    </section>
+        
+    </div>
+    </div>
 
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     <script src="http://webdesign9.in/js/jquery.js"></script>
